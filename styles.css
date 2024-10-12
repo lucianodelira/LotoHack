@@ -406,18 +406,3 @@ select {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
-/* Estilos para a tela offline (opcional, caso queira mais personalização) */
-#offline-overlay h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-#offline-overlay p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-#offline-overlay button {
-    font-size: 1em;
-}
