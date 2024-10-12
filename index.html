@@ -212,9 +212,53 @@
             </a>
         </nav>
     </footer>
+
     <!-- Inclusão dos scripts JavaScript -->
     <script src="resultados.js"></script>
     <script src="palpites.js"></script>
     <script src="script.js"></script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB4XSOOTIxbJvIpfd96MsyJZDW2aNi_uPc",
+    authDomain: "loto-hack.firebaseapp.com",
+    projectId: "loto-hack",
+    storageBucket: "loto-hack.appspot.com",
+    messagingSenderId: "138353732568",
+    appId: "1:138353732568:web:71f27a582f25cd544aa0ad",
+    measurementId: "G-P53RKCKPQ5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     </body>
+
+<script>
+  const messaging = firebase.messaging();
+
+  // Solicitar permissão para receber notificações
+  messaging.requestPermission()
+  .then(() => {
+    console.log('Permissão concedida!');
+    return messaging.getToken();
+  })
+  .then(token => {
+    console.log('Token de notificação FCM:', token);
+    // Aqui você pode enviar o token para seu backend para associá-lo ao usuário
+  })
+  .catch(err => {
+    console.error('Erro ao solicitar permissão para notificações:', err);
+  });
+</script>
+
 </html>
