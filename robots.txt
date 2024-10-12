@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seusite.com/sitemap.xml
+Sitemap: https://app.acertosonline.com/sitemap.xml

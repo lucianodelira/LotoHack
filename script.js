@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Cria e adiciona a frase personalizada
             const fraseP = document.createElement('p');
-            fraseP.textContent = `Jogue M/MC/C/D do 1º ao 10º na loteria ${nome}.`;
+            fraseP.textContent = `Jogue M/MC/C/D do 1º ao 5º ou do 1º ao 10º na loteria ${nome}.`;
             fraseP.classList.add('frase-palpite'); // Alinha à direita via CSS
             palpiteConteudoDiv.appendChild(fraseP);
 
