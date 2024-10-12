@@ -245,6 +245,47 @@ document.addEventListener('DOMContentLoaded', function () {
         abrirOpcoesCompartilhamento();
     });
 
+    // Inicializando o Firebase para Firebase Cloud Messaging (FCM)
+    const firebaseConfig = {
+        apiKey: "AIzaSyB4XSOOTIxbJvIpfd96MsyJZDW2aNi_uPc",
+        authDomain: "loto-hack.firebaseapp.com",
+        projectId: "loto-hack",
+        storageBucket: "loto-hack.appspot.com",
+        messagingSenderId: "138353732568",
+        appId: "1:138353732568:web:71f27a582f25cd544aa0ad",
+        measurementId: "G-P53RKCKPQ5"
+    };
+    
+    // Inicializando o Firebase App
+    firebase.initializeApp(firebaseConfig);
+
+    // Inicializando o Firebase Messaging
+    const messaging = firebase.messaging();
+
+    // Solicitar permissão para notificações
+    messaging.requestPermission().then(() => {
+        console.log('Permissão para notificações concedida');
+        return messaging.getToken();
+    }).then((token) => {
+        console.log('Token de notificação FCM:', token);
+        // Você pode enviar esse token para o seu servidor se quiser associar a um usuário
+    }).catch((err) => {
+        console.error('Erro ao obter permissão para notificações', err);
+    });
+
+    // Lidar com mensagens recebidas em primeiro plano (quando o app está aberto)
+    messaging.onMessage((payload) => {
+        console.log('Notificação push recebida em primeiro plano: ', payload);
+        // Exibir notificação personalizada
+        const notificationTitle = payload.notification.title;
+        const notificationOptions = {
+            body: payload.notification.body,
+            icon: '/icons/logo.png'  // Caminho do ícone da notificação
+        };
+
+        new Notification(notificationTitle, notificationOptions);
+    });
+
     // Função para definir o ícone ativo
     function setActiveIcon(activeIcon) {
         [resultadoIcon, palpiteIcon, jogarIcon].forEach(icon => {
