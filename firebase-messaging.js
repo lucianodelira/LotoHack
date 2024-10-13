@@ -8,7 +8,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyB4XSOOTIxbJvIpfd96MsyJZDW2aNi_uPc",
   authDomain: "loto-hack.firebaseapp.com",
   projectId: "loto-hack",
-  storageBucket: "loto-hack.appspot.com",
+  storageBucket: "loto-hack",
   messagingSenderId: "138353732568",
   appId: "1:138353732568:web:71f27a582f25cd544aa0ad",
   measurementId: "G-P53RKCKPQ5"
