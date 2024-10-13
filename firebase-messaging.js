@@ -21,19 +21,6 @@ const analytics = getAnalytics(app);
 // Initialize Firebase Messaging
 const messaging = getMessaging(app);
 
-// Registrar o Service Worker para usar com o Firebase Messaging
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/firebase-messaging-sw.js')
-    .then((registration) => {
-      console.log('Service Worker registrado com sucesso:', registration);
-      // Utilizar o Service Worker registrado no Firebase Messaging
-      messaging.useServiceWorker(registration);
-    })
-    .catch((error) => {
-      console.error('Falha ao registrar o Service Worker:', error);
-    });
-}
-
 // Solicitar permissão para enviar notificações usando a API de Notificações
 Notification.requestPermission().then(permission => {
   if (permission === 'granted') {
