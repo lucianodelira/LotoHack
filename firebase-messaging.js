@@ -1,24 +1,37 @@
-// Import the functions you need from the SDKs you need
+// Registro do Service Worker para PWA e Firebase Messaging
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('ServiceWorker registrado com sucesso:', registration.scope);
+      })
+      .catch(error => {
+        console.log('Falha ao registrar ServiceWorker:', error);
+      });
+  });
+}
+
+// Importar as funções necessárias do Firebase SDK
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
 import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-messaging.js";
 
-// Your web app's Firebase configuration
+// Configuração do Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyB4XSOOTIxbJvIpfd96MsyJZDW2aNi_uPc",
   authDomain: "loto-hack.firebaseapp.com",
   projectId: "loto-hack",
-  storageBucket: "loto-hack",
+  storageBucket: "loto-hack.appspot.com",
   messagingSenderId: "138353732568",
   appId: "1:138353732568:web:71f27a582f25cd544aa0ad",
   measurementId: "G-P53RKCKPQ5"
 };
 
-// Initialize Firebase
+// Inicializar Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-// Initialize Firebase Messaging
+// Inicializar Firebase Messaging
 const messaging = getMessaging(app);
 
 // Solicitar permissão para enviar notificações usando a API de Notificações
