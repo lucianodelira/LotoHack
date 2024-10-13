@@ -32,11 +32,7 @@ const palpites = {
       "2402",
       "2407"
     ],
-    "frases": [
-      "19h - MALUCA - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 4028 no 8º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 4428 no 8º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 4128 no 8º Prêmio!"
-    ]
+    "frases": []
   },
   "BAHIA": {
     "palpites": [
@@ -71,31 +67,7 @@ const palpites = {
       "6240",
       "6245"
     ],
-    "frases": [
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0755 no 5º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0455 no 5º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0055 no 5º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0721 no 6º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Centena, Palpite 0421 no 6º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0421 no 6º Prêmio!",
-      "15h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 0021 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8493 no 3º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8193 no 3º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8793 no 3º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8494 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8194 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8794 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8494 no 10º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8194 no 10º Prêmio!",
-      "19h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 8794 no 10º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Centena, Palpite 2208 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2208 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2608 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2808 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2248 no 7º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2648 no 7º Prêmio!",
-      "21h - BA - Resultado do dia 12/10/2024 (Sábado)\nDeu Dezena, Palpite 2848 no 7º Prêmio!"
-    ]
+    "frases": []
   },
   "LOTECE": {
     "palpites": [
@@ -130,51 +102,40 @@ const palpites = {
       "0312",
       "0319"
     ],
-    "frases": [
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9048 no 3º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9148 no 3º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9348 no 3º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9077 no 7º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9177 no 7º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 9377 no 7º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 3077 no 7º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 19:00 (noite)\nDeu Dezena, Palpite 9026 no 3º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 19:00 (noite)\nDeu Dezena, Palpite 9526 no 3º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 19:00 (noite)\nDeu Dezena, Palpite 9126 no 3º Prêmio!"
-    ]
+    "frases": []
   },
   "LOOK/GOIAS": {
     "palpites": [
-      "1061",
-      "1066",
-      "1067",
-      "1071",
-      "1076",
-      "1077",
-      "1021",
-      "1026",
-      "1027",
-      "1461",
-      "1466",
-      "1467",
-      "1471",
-      "1476",
-      "1477",
-      "1421",
-      "1426",
-      "1427",
-      "1761",
-      "1766",
-      "1767",
-      "1771",
-      "1776",
-      "1777",
-      "1721",
-      "1726",
-      "1727",
-      "4061",
-      "4066",
-      "4067"
+      "5344",
+      "5343",
+      "5341",
+      "5354",
+      "5353",
+      "5351",
+      "5384",
+      "5383",
+      "5381",
+      "5044",
+      "5043",
+      "5041",
+      "5054",
+      "5053",
+      "5051",
+      "5084",
+      "5083",
+      "5081",
+      "5444",
+      "5443",
+      "5441",
+      "5454",
+      "5453",
+      "5451",
+      "5484",
+      "5483",
+      "5481",
+      "1344",
+      "1343",
+      "1341"
     ],
     "frases": []
   }
