@@ -1,3 +1,18 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/firebase-messaging-sw.js')
+      .then((registration) => {
+        console.log('ServiceWorker registrado com sucesso:', registration);
+      })
+      .catch((error) => {
+        console.log('Falha ao registrar o ServiceWorker:', error);
+      });
+  });
+} else {
+  console.log('Service Workers não são suportados neste navegador.');
+}
+
+
 // Importando as bibliotecas necessárias do Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-messaging.js";
