@@ -21,12 +21,25 @@ const analytics = getAnalytics(app);
 // Initialize Firebase Messaging
 const messaging = getMessaging(app);
 
-// Request permission to send notifications using the browser's Notification API
+// Registrar o Service Worker para usar com o Firebase Messaging
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/firebase-messaging-sw.js')
+    .then((registration) => {
+      console.log('Service Worker registrado com sucesso:', registration);
+      // Utilizar o Service Worker registrado no Firebase Messaging
+      messaging.useServiceWorker(registration);
+    })
+    .catch((error) => {
+      console.error('Falha ao registrar o Service Worker:', error);
+    });
+}
+
+// Solicitar permissão para enviar notificações usando a API de Notificações
 Notification.requestPermission().then(permission => {
   if (permission === 'granted') {
     console.log('Permissão concedida para notificações!');
-
-    // Get the FCM token
+    
+    // Obter o token FCM para enviar ao backend
     return getToken(messaging);
   } else {
     console.log('Permissão negada para notificações.');
@@ -34,20 +47,22 @@ Notification.requestPermission().then(permission => {
 }).then((token) => {
   if (token) {
     console.log('Token de notificação FCM:', token);
-    // Envie o token para o backend para associá-lo ao usuário
+    // Enviar o token para o backend para associá-lo ao usuário
   }
 }).catch((err) => {
   console.error('Erro ao solicitar permissão para notificações:', err);
 });
 
-// Handle messages when the app is in the foreground
+// Lidar com mensagens quando o app está em primeiro plano
 onMessage(messaging, (payload) => {
   console.log('Mensagem recebida em primeiro plano:', payload);
-  // Customizar a exibição da notificação
+  
+  // Exibir a notificação
   const notificationTitle = payload.notification.title;
   const notificationOptions = {
     body: payload.notification.body,
     icon: 'icons/favicon.png'
   };
+  
   new Notification(notificationTitle, notificationOptions);
 });
