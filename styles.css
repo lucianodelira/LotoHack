@@ -376,7 +376,7 @@ select {
 
 /* Frase personalizada */
 .frase-palpite {
-    font-size: 1.2em;
+    font-size: 1.0em;
     margin-bottom: 10px;
     color: #333;
     text-align: left; /* Alinha a frase à direita */
@@ -405,4 +405,7 @@ select {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: justify;
+    hyphens: auto;
+    word-break: break-word;
 }
