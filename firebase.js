@@ -32,7 +32,7 @@ async function requestPermission() {
 // Função para obter o token FCM
 async function getFCMToken() {
   try {
-    const token = await getToken(messaging, { vapidKey: 'wqfdwA3kyubTw8_wVtO979UTEWWDABgdkVaIge_fZwU' });
+    const token = await getToken(messaging, { vapidKey: 'BDm4dAIMcu31t5ChnxwBpDu5iT8qSSvwIb332nSt6NwQexeQVNinuo68eBTilpAWZGnHKyKyZWKOdmMtkSq7__s' });
     if (token) {
       console.log('Token FCM:', token);
       // Aqui você pode enviar o token para o servidor para armazená-lo e usá-lo para enviar notificações push
