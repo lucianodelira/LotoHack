@@ -1,6 +1,6 @@
-importScripts('https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/10.14.1/firebase-messaging.js');
 
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
 // Initialize Firebase in service worker
 const firebaseConfig = {
   apiKey: "AIzaSyB4XSOOTIxbJvIpfd96MsyJZDW2aNi_uPc",
