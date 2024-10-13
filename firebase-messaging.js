@@ -1,5 +1,3 @@
-// firebase-messaging.js
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
@@ -23,20 +21,24 @@ const analytics = getAnalytics(app);
 // Initialize Firebase Messaging
 const messaging = getMessaging(app);
 
-// Request permission to send notifications
-messaging.requestPermission()
-  .then(() => {
+// Request permission to send notifications using the browser's Notification API
+Notification.requestPermission().then(permission => {
+  if (permission === 'granted') {
     console.log('Permissão concedida para notificações!');
+
     // Get the FCM token
     return getToken(messaging);
-  })
-  .then((token) => {
+  } else {
+    console.log('Permissão negada para notificações.');
+  }
+}).then((token) => {
+  if (token) {
     console.log('Token de notificação FCM:', token);
     // Envie o token para o backend para associá-lo ao usuário
-  })
-  .catch((err) => {
-    console.error('Erro ao solicitar permissão para notificações:', err);
-  });
+  }
+}).catch((err) => {
+  console.error('Erro ao solicitar permissão para notificações:', err);
+});
 
 // Handle messages when the app is in the foreground
 onMessage(messaging, (payload) => {
