@@ -112,6 +112,9 @@ const palpites = {
       "0101"
     ],
     "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5351 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5051 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5451 no 3º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1002 no 3º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1402 no 3º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1802 no 3º Prêmio!",
@@ -121,6 +124,81 @@ const palpites = {
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1001 no 10º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1401 no 10º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 1801 no 10º Prêmio!"
+    ]
+  },
+  "LOTEP": {
+    "palpites": [
+      "7339",
+      "7330",
+      "7332",
+      "7379",
+      "7370",
+      "7372",
+      "7399",
+      "7390",
+      "7392",
+      "7639",
+      "7630",
+      "7632",
+      "7679",
+      "7670",
+      "7672",
+      "7699",
+      "7690",
+      "7692",
+      "7739",
+      "7730",
+      "7732",
+      "7779",
+      "7770",
+      "7772",
+      "7799",
+      "7790",
+      "7792",
+      "0339",
+      "0330",
+      "0332"
+    ],
+    "frases": []
+  },
+  "PT RIO": {
+    "palpites": [
+      "6702",
+      "6704",
+      "6705",
+      "6772",
+      "6774",
+      "6775",
+      "6712",
+      "6714",
+      "6715",
+      "6102",
+      "6104",
+      "6105",
+      "6172",
+      "6174",
+      "6175",
+      "6112",
+      "6114",
+      "6115",
+      "6402",
+      "6404",
+      "6405",
+      "6472",
+      "6474",
+      "6475",
+      "6412",
+      "6414",
+      "6415",
+      "3702",
+      "3704",
+      "3705"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Centena, Palpite 6145 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 6145 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 6745 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 6045 no 2º Prêmio!"
     ]
   }
 };
