@@ -285,6 +285,77 @@ const resultado = {
           "Burro"
         ]
       ]
+    },
+    {
+      "titulo": "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "5513",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "2º",
+          "7630",
+          "08",
+          "Camelo"
+        ],
+        [
+          "3º",
+          "8202",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "4º",
+          "5524",
+          "06",
+          "Cabra"
+        ],
+        [
+          "5º",
+          "4801",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "6º",
+          "5529",
+          "08",
+          "Camelo"
+        ],
+        [
+          "7º",
+          "4616",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "8º",
+          "2527",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "9º",
+          "5782",
+          "21",
+          "Touro"
+        ],
+        [
+          "10º",
+          "8520",
+          "05",
+          "Cachorro"
+        ]
+      ]
     }
   ],
   "LOTECE": [
