@@ -110,5 +110,48 @@ const palpites = {
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Milhar, Palpite 0737 no 10º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 0937 no 10º Prêmio!"
     ]
+  },
+  "PT RIO": {
+    "palpites": [
+      "0947",
+      "0942",
+      "0945",
+      "0997",
+      "0992",
+      "0995",
+      "0917",
+      "0912",
+      "0915",
+      "0747",
+      "0742",
+      "0745",
+      "0797",
+      "0792",
+      "0795",
+      "0717",
+      "0712",
+      "0715",
+      "0047",
+      "0042",
+      "0045",
+      "0097",
+      "0092",
+      "0095",
+      "0017",
+      "0012",
+      "0015",
+      "2947",
+      "2942",
+      "2945"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3041 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3141 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Centena, Palpite 3941 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3941 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3042 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3142 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3942 no 8º Prêmio!"
+    ]
   }
 };
