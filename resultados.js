@@ -141,6 +141,77 @@ const resultado = {
           "Avestruz"
         ]
       ]
+    },
+    {
+      "titulo": "15h - MALUCA - BA - Resultado do dia 15/10/2024 (Terça-feira)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "3427",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "2º",
+          "4484",
+          "21",
+          "Touro"
+        ],
+        [
+          "3º",
+          "5144",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "4º",
+          "1403",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "5º",
+          "4842",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "6º",
+          "8020",
+          "05",
+          "Cachorro"
+        ],
+        [
+          "7º",
+          "7266",
+          "17",
+          "Macaco"
+        ],
+        [
+          "8º",
+          "3716",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "9º",
+          "0574",
+          "19",
+          "Pavão"
+        ],
+        [
+          "10º",
+          "5345",
+          "12",
+          "Elefante"
+        ]
+      ]
     }
   ],
   "BAHIA": [
