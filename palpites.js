@@ -145,5 +145,87 @@ const palpites = {
       "6295"
     ],
     "frases": []
+  },
+  "PT RIO": {
+    "palpites": [
+      "0947",
+      "0942",
+      "0945",
+      "0997",
+      "0992",
+      "0995",
+      "0917",
+      "0912",
+      "0915",
+      "0747",
+      "0742",
+      "0745",
+      "0797",
+      "0792",
+      "0795",
+      "0717",
+      "0712",
+      "0715",
+      "0047",
+      "0042",
+      "0045",
+      "0097",
+      "0092",
+      "0095",
+      "0017",
+      "0012",
+      "0015",
+      "2947",
+      "2942",
+      "2945"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3041 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3141 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Centena, Palpite 3941 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3941 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3042 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3142 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3942 no 8º Prêmio!"
+    ]
+  },
+  "PT SP": {
+    "palpites": [
+      "4069",
+      "4062",
+      "4067",
+      "4049",
+      "4042",
+      "4047",
+      "4099",
+      "4092",
+      "4097",
+      "4469",
+      "4462",
+      "4467",
+      "4449",
+      "4442",
+      "4447",
+      "4499",
+      "4492",
+      "4497",
+      "4369",
+      "4362",
+      "4367",
+      "4349",
+      "4342",
+      "4347",
+      "4399",
+      "4392",
+      "4397",
+      "7069",
+      "7062",
+      "7067"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho SP, 10hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 2269 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 10hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 2569 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 10hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 2669 no 4º Prêmio!"
+    ]
   }
 };
