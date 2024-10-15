@@ -32,20 +32,7 @@ const palpites = {
       "2630",
       "2633"
     ],
-    "frases": [
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1310 no 6º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1410 no 6º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Centena, Palpite 1910 no 6º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1910 no 6º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 6310 no 6º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1360 no 7º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1460 no 7º Prêmio!",
-      "10h - MALUCA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1960 no 7º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5684 no 1º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5084 no 1º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Centena, Palpite 5184 no 1º Prêmio!",
-      "19h - MALUCA - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5184 no 1º Prêmio!"
-    ]
+    "frases": []
   },
   "BAHIA": {
     "palpites": [
@@ -80,31 +67,7 @@ const palpites = {
       "2110",
       "2111"
     ],
-    "frases": [
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1996 no 3º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1696 no 3º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1896 no 3º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1900 no 9º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Centena, Palpite 1600 no 9º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1600 no 9º Prêmio!",
-      "10h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1800 no 9º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0130 no 2º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0330 no 2º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0730 no 2º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 3130 no 2º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0101 no 5º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0301 no 5º Prêmio!",
-      "15h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 0701 no 5º Prêmio!",
-      "19h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5502 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5602 no 6º Prêmio!",
-      "19h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 5202 no 6º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1978 no 1º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1278 no 1º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1478 no 1º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1906 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1206 no 2º Prêmio!",
-      "21h - BA - Resultado do dia 14/10/2024 (Segunda-feira)\nDeu Dezena, Palpite 1406 no 2º Prêmio!"
-    ]
+    "frases": []
   },
   "LOTECE": {
     "palpites": [
@@ -139,53 +102,41 @@ const palpites = {
       "3042",
       "3045"
     ],
-    "frases": [
-      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8306 no 6º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8406 no 6º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8806 no 6º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0601 no 1º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0101 no 1º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0001 no 1º Prêmio!",
-      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 7601 no 1º Prêmio!"
-    ]
+    "frases": []
   },
   "LOOK/GOIAS": {
     "palpites": [
-      "5528",
-      "5521",
-      "5522",
-      "5548",
-      "5541",
-      "5542",
-      "5598",
-      "5591",
-      "5592",
-      "5028",
-      "5021",
-      "5022",
-      "5048",
-      "5041",
-      "5042",
-      "5098",
-      "5091",
-      "5092",
-      "5128",
-      "5121",
-      "5122",
-      "5148",
-      "5141",
-      "5142",
-      "5198",
-      "5191",
-      "5192",
-      "8528",
-      "8521",
-      "8522"
+      "0307",
+      "0300",
+      "0304",
+      "0317",
+      "0310",
+      "0314",
+      "0337",
+      "0330",
+      "0334",
+      "0707",
+      "0700",
+      "0704",
+      "0717",
+      "0710",
+      "0714",
+      "0737",
+      "0730",
+      "0734",
+      "0907",
+      "0900",
+      "0904",
+      "0917",
+      "0910",
+      "0914",
+      "0937",
+      "0930",
+      "0934",
+      "3307",
+      "3300",
+      "3304"
     ],
-    "frases": [
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 23h, 1º ao 10º\nDeu Dezena, Palpite 1001 no 5º Prêmio!",
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 23h, 1º ao 10º\nDeu Dezena, Palpite 1301 no 5º Prêmio!",
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 23h, 1º ao 10º\nDeu Dezena, Palpite 1601 no 5º Prêmio!"
-    ]
+    "frases": []
   }
 };
