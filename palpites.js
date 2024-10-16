@@ -68,5 +68,44 @@ const palpites = {
       "3001"
     ],
     "frases": []
+  },
+  "PT RIO": {
+    "palpites": [
+      "3700",
+      "3702",
+      "3707",
+      "3730",
+      "3732",
+      "3737",
+      "3760",
+      "3762",
+      "3767",
+      "3900",
+      "3902",
+      "3907",
+      "3930",
+      "3932",
+      "3937",
+      "3960",
+      "3962",
+      "3967",
+      "3000",
+      "3002",
+      "3007",
+      "3030",
+      "3032",
+      "3037",
+      "3060",
+      "3062",
+      "3067",
+      "4700",
+      "4702",
+      "4707"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 6577 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 6677 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 6777 no 2º Prêmio!"
+    ]
   }
 };
