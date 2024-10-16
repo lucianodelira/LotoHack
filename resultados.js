@@ -70,6 +70,77 @@ const resultado = {
           "Macaco"
         ]
       ]
+    },
+    {
+      "titulo": "12h - MALUCA - BA - Resultado do dia 16/10/2024 (Quarta-feira)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "3927",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "2º",
+          "7119",
+          "05",
+          "Cachorro"
+        ],
+        [
+          "3º",
+          "1028",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "4º",
+          "1044",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "5º",
+          "2361",
+          "16",
+          "Leão"
+        ],
+        [
+          "6º",
+          "5704",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "7º",
+          "2206",
+          "02",
+          "Águia"
+        ],
+        [
+          "8º",
+          "3567",
+          "17",
+          "Macaco"
+        ],
+        [
+          "9º",
+          "7601",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "10º",
+          "6439",
+          "10",
+          "Coelho"
+        ]
+      ]
     }
   ],
   "BAHIA": [
