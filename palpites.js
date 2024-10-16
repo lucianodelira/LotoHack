@@ -124,5 +124,40 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4105 no 1º Prêmio!",
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 1005 no 1º Prêmio!"
     ]
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "7422",
+      "7424",
+      "7426",
+      "7402",
+      "7404",
+      "7406",
+      "7412",
+      "7414",
+      "7416",
+      "7022",
+      "7024",
+      "7026",
+      "7002",
+      "7004",
+      "7006",
+      "7012",
+      "7014",
+      "7016",
+      "7622",
+      "7624",
+      "7626",
+      "7602",
+      "7604",
+      "7606",
+      "7612",
+      "7614",
+      "7616",
+      "0422",
+      "0424",
+      "0426"
+    ],
+    "frases": []
   }
 };
