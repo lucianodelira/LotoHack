@@ -1943,6 +1943,130 @@ const resultado = {
           "Jacaré"
         ]
       ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 15:30 - BANDEIRANTES, 1º ao 5º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "7027",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "2º",
+          "9154",
+          "14",
+          "Gato"
+        ],
+        [
+          "3º",
+          "4638",
+          "10",
+          "Coelho"
+        ],
+        [
+          "4º",
+          "9313",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "5º",
+          "4657",
+          "15",
+          "Jacaré"
+        ],
+        [
+          "6º [soma]",
+          "4789",
+          "",
+          ""
+        ],
+        [
+          "7º [mult]",
+          "325",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 15:30 - BANDEIRANTES, 1º ao 10º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "7027",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "2º",
+          "9154",
+          "14",
+          "Gato"
+        ],
+        [
+          "3º",
+          "4638",
+          "10",
+          "Coelho"
+        ],
+        [
+          "4º",
+          "9313",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "5º",
+          "4657",
+          "15",
+          "Jacaré"
+        ],
+        [
+          "6º",
+          "7949",
+          "13",
+          "Galo"
+        ],
+        [
+          "7º",
+          "0163",
+          "16",
+          "Leão"
+        ],
+        [
+          "8º",
+          "2531",
+          "08",
+          "Camelo"
+        ],
+        [
+          "9º",
+          "7483",
+          "21",
+          "Touro"
+        ],
+        [
+          "10º",
+          "2915",
+          "04",
+          "Borboleta"
+        ]
+      ]
     }
   ]
 };
