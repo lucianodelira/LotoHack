@@ -200,5 +200,85 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTEP - PB, 12:45\nDeu Dezena, Palpite 6773 no 5º Prêmio!",
       "Resultado do Jogo do Bicho LOTEP - PB, 12:45\nDeu Dezena, Palpite 8273 no 5º Prêmio!"
     ]
+  },
+  "PT RIO": {
+    "palpites": [
+      "1344",
+      "1346",
+      "1340",
+      "1314",
+      "1316",
+      "1310",
+      "1324",
+      "1326",
+      "1320",
+      "1644",
+      "1646",
+      "1640",
+      "1614",
+      "1616",
+      "1610",
+      "1624",
+      "1626",
+      "1620",
+      "1944",
+      "1946",
+      "1940",
+      "1914",
+      "1916",
+      "1910",
+      "1924",
+      "1926",
+      "1920",
+      "9344",
+      "9346",
+      "9340"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0276 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0576 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Centena, Palpite 0976 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0976 no 4º Prêmio!"
+    ]
+  },
+  "PT SP": {
+    "palpites": [
+      "4010",
+      "4013",
+      "4012",
+      "4050",
+      "4053",
+      "4052",
+      "4000",
+      "4003",
+      "4002",
+      "4710",
+      "4713",
+      "4712",
+      "4750",
+      "4753",
+      "4752",
+      "4700",
+      "4703",
+      "4702",
+      "4110",
+      "4113",
+      "4112",
+      "4150",
+      "4153",
+      "4152",
+      "4100",
+      "4103",
+      "4102",
+      "1010",
+      "1013",
+      "1012"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho SP, 13hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 4330 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 13hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 4930 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 13hs - PTSP, 1º ao 10º\nDeu Centena, Palpite 4030 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 13hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 4030 no 7º Prêmio!"
+    ]
   }
 };
