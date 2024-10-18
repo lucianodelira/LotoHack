@@ -116,5 +116,40 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 2982 no 8º Prêmio!",
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 2082 no 8º Prêmio!"
     ]
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "3614",
+      "3611",
+      "3612",
+      "3664",
+      "3661",
+      "3662",
+      "3674",
+      "3671",
+      "3672",
+      "3714",
+      "3711",
+      "3712",
+      "3764",
+      "3761",
+      "3762",
+      "3774",
+      "3771",
+      "3772",
+      "3114",
+      "3111",
+      "3112",
+      "3164",
+      "3161",
+      "3162",
+      "3174",
+      "3171",
+      "3172",
+      "1614",
+      "1611",
+      "1612"
+    ],
+    "frases": []
   }
 };
