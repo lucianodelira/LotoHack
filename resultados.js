@@ -70,6 +70,77 @@ const resultado = {
           "Avestruz"
         ]
       ]
+    },
+    {
+      "titulo": "12h - MALUCA - BA - Resultado do dia 18/10/2024 (Sexta-feira)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "8385",
+          "22",
+          "Tigre"
+        ],
+        [
+          "2º",
+          "7348",
+          "12",
+          "Elefante"
+        ],
+        [
+          "3º",
+          "1332",
+          "08",
+          "Camelo"
+        ],
+        [
+          "4º",
+          "7419",
+          "05",
+          "Cachorro"
+        ],
+        [
+          "5º",
+          "3640",
+          "10",
+          "Coelho"
+        ],
+        [
+          "6º",
+          "9673",
+          "19",
+          "Pavão"
+        ],
+        [
+          "7º",
+          "9326",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "8º",
+          "7132",
+          "08",
+          "Camelo"
+        ],
+        [
+          "9º",
+          "3916",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "10º",
+          "6122",
+          "06",
+          "Cabra"
+        ]
+      ]
     }
   ],
   "BAHIA": [
