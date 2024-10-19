@@ -212,6 +212,77 @@ const resultado = {
           "Borboleta"
         ]
       ]
+    },
+    {
+      "titulo": "19h FEDERAL - MALUCA - BA - Resultado do dia 19/10/2024 (Sábado)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "9266",
+          "17",
+          "Macaco"
+        ],
+        [
+          "2º",
+          "8694",
+          "24",
+          "Veado"
+        ],
+        [
+          "3º",
+          "1204",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "4º",
+          "5701",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "5º",
+          "0696",
+          "24",
+          "Veado"
+        ],
+        [
+          "6º",
+          "5104",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "7º",
+          "4922",
+          "06",
+          "Cabra"
+        ],
+        [
+          "8º",
+          "6792",
+          "23",
+          "Urso"
+        ],
+        [
+          "9º",
+          "7260",
+          "15",
+          "Jacaré"
+        ],
+        [
+          "10º",
+          "8814",
+          "04",
+          "Borboleta"
+        ]
+      ]
     }
   ],
   "BAHIA": [
