@@ -2599,6 +2599,130 @@ const resultado = {
           "Cobra"
         ]
       ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 17hs - PTSP, 1º ao 5º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "7439",
+          "10",
+          "Coelho"
+        ],
+        [
+          "2º",
+          "0416",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "3º",
+          "3726",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "4º",
+          "9507",
+          "02",
+          "Águia"
+        ],
+        [
+          "5º",
+          "9416",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "6º [soma]",
+          "0504",
+          "",
+          ""
+        ],
+        [
+          "7º [mult]",
+          "094",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 17hs - PTSP, 1º ao 10º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "7439",
+          "10",
+          "Coelho"
+        ],
+        [
+          "2º",
+          "0416",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "3º",
+          "3726",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "4º",
+          "9507",
+          "02",
+          "Águia"
+        ],
+        [
+          "5º",
+          "9416",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "6º",
+          "7039",
+          "10",
+          "Coelho"
+        ],
+        [
+          "7º",
+          "4475",
+          "19",
+          "Pavão"
+        ],
+        [
+          "8º",
+          "3120",
+          "05",
+          "Cachorro"
+        ],
+        [
+          "9º",
+          "9667",
+          "17",
+          "Macaco"
+        ],
+        [
+          "10º",
+          "4805",
+          "02",
+          "Águia"
+        ]
+      ]
     }
   ]
 };
