@@ -72,5 +72,45 @@ const palpites = {
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 9920 no 2º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 9020 no 2º Prêmio!"
     ]
+  },
+  "PT RIO": {
+    "palpites": [
+      "2310",
+      "2313",
+      "2311",
+      "2350",
+      "2353",
+      "2351",
+      "2300",
+      "2303",
+      "2301",
+      "2510",
+      "2513",
+      "2511",
+      "2550",
+      "2553",
+      "2551",
+      "2500",
+      "2503",
+      "2501",
+      "2710",
+      "2713",
+      "2711",
+      "2750",
+      "2753",
+      "2751",
+      "2700",
+      "2703",
+      "2701",
+      "3310",
+      "3313",
+      "3311"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 7173 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Centena, Palpite 7573 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 7573 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 7873 no 6º Prêmio!"
+    ]
   }
 };
