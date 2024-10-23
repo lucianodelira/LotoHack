@@ -130,5 +130,44 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 6165 no 3º Prêmio!",
       "Resultado do Jogo do Bicho LOTECE - CE, 14:00 (tarde)\nDeu Dezena, Palpite 6565 no 3º Prêmio!"
     ]
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "7100",
+      "7104",
+      "7103",
+      "7190",
+      "7194",
+      "7193",
+      "7120",
+      "7124",
+      "7123",
+      "7400",
+      "7404",
+      "7403",
+      "7490",
+      "7494",
+      "7493",
+      "7420",
+      "7424",
+      "7423",
+      "7500",
+      "7504",
+      "7503",
+      "7590",
+      "7594",
+      "7593",
+      "7520",
+      "7524",
+      "7523",
+      "8100",
+      "8104",
+      "8103"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1309 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1909 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1809 no 3º Prêmio!"
+    ]
   }
 };
