@@ -116,5 +116,51 @@ const palpites = {
       "4300"
     ],
     "frases": []
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "1311",
+      "1315",
+      "1319",
+      "1301",
+      "1305",
+      "1309",
+      "1351",
+      "1355",
+      "1359",
+      "1911",
+      "1915",
+      "1919",
+      "1901",
+      "1905",
+      "1909",
+      "1951",
+      "1955",
+      "1959",
+      "1811",
+      "1815",
+      "1819",
+      "1801",
+      "1805",
+      "1809",
+      "1851",
+      "1855",
+      "1859",
+      "3311",
+      "3315",
+      "3319"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0059 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0159 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0259 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0015 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0115 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0215 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0019 no 9º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Centena, Palpite 0119 no 9º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0119 no 9º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 0219 no 9º Prêmio!"
+    ]
   }
 };
