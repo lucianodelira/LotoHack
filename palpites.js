@@ -33,5 +33,45 @@ const palpites = {
       "3000"
     ],
     "frases": []
+  },
+  "PT RIO": {
+    "palpites": [
+      "0305",
+      "0300",
+      "0302",
+      "0355",
+      "0350",
+      "0352",
+      "0385",
+      "0380",
+      "0382",
+      "0005",
+      "0000",
+      "0002",
+      "0055",
+      "0050",
+      "0052",
+      "0085",
+      "0080",
+      "0082",
+      "0505",
+      "0500",
+      "0502",
+      "0555",
+      "0550",
+      "0552",
+      "0585",
+      "0580",
+      "0582",
+      "2305",
+      "2300",
+      "2302"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Centena, Palpite 1508 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 1508 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 1408 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 1908 no 8º Prêmio!"
+    ]
   }
 };
