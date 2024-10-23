@@ -32,7 +32,19 @@ const palpites = {
       "8083",
       "8085"
     ],
-    "frases": []
+    "frases": [
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6260 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6660 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6060 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6287 no 7º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6687 no 7º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Centena, Palpite 6087 no 7º Prêmio!",
+      "10h - MALUCA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 6087 no 7º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 4490 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 4590 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 4990 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 1490 no 8º Prêmio!"
+    ]
   },
   "BAHIA": {
     "palpites": [
@@ -67,6 +79,63 @@ const palpites = {
       "0182",
       "0188"
     ],
-    "frases": []
+    "frases": [
+      "10h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0609 no 7º Prêmio!",
+      "10h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0809 no 7º Prêmio!",
+      "10h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0109 no 7º Prêmio!",
+      "10h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 2609 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0457 no 3º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0057 no 3º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0157 no 3º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0449 no 4º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Milhar, Palpite 0049 no 4º Prêmio!",
+      "12h - BA - Resultado do dia 23/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 0149 no 4º Prêmio!"
+    ]
+  },
+  "LOTECE": {
+    "palpites": [
+      "7341",
+      "7344",
+      "7340",
+      "7371",
+      "7374",
+      "7370",
+      "7301",
+      "7304",
+      "7300",
+      "7841",
+      "7844",
+      "7840",
+      "7871",
+      "7874",
+      "7870",
+      "7801",
+      "7804",
+      "7800",
+      "7241",
+      "7244",
+      "7240",
+      "7271",
+      "7274",
+      "7270",
+      "7201",
+      "7204",
+      "7200",
+      "1341",
+      "1344",
+      "1340"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5261 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5461 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5661 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0261 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5237 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5437 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5637 no 4º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5281 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5481 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 5681 no 8º Prêmio!"
+    ]
   }
 };
