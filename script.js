@@ -460,38 +460,56 @@ document.querySelectorAll('.tab-link').forEach(link => {
         return table;
     }
 
-    // Evento para o botão 'Mostrar palpite'
-    mostrarPalpiteBtn.addEventListener('click', function () {
-        const selectedName = dropdownPalpite.value;
-        if (!selectedName) {
-            alert("Por favor, selecione uma loteria primeiro.");
-            return;
-        }
 
-        if (!palpites || !palpites[selectedName]) {
-            alert("Dados para a loteria selecionada não estão disponíveis.");
-            return;
-        }
+// Modifique o evento do botão "Mostrar palpite"
+mostrarPalpiteBtn.addEventListener('click', function () {
+    const selectedName = dropdownPalpite.value;
+    if (!selectedName) {
+        alert("Por favor, selecione uma loteria primeiro.");
+        return;
+    }
 
-        const dadosPalpite = palpites[selectedName];
-        const palpitesList = dadosPalpite.palpites;
+    if (!palpites || !palpites[selectedName]) {
+        alert("Dados para a loteria selecionada não estão disponíveis.");
+        return;
+    }
 
-        if (palpitesList.length === 0) {
-            alert("Não há palpites disponíveis para esta loteria.");
-            return;
-        }
+    // Verifica se o usuário pode ver os palpites (seja por compartilhamento ou por privilégio)
 
-        // Verifica se a página foi compartilhada
-        const hasShared = localStorage.getItem(localStorageSharedKey) === 'true';
-        if (hasShared) {
-            // Exibir os palpites com efeito de carregamento
-            exibirPalpitesComLoading(selectedName);
-            // Resetar o status de compartilhamento
-            localStorage.setItem(localStorageSharedKey, 'false');
-        } else {
-            alert("Por favor, compartilhe a página antes de mostrar os palpites.");
-        }
-    });
+    if (canShowPalpite()) {
+        // Exibir os palpites com efeito de carregamento
+        exibirPalpitesComLoading(selectedName);
+        // Resetar o status de compartilhamento
+        localStorage.setItem(localStorageSharedKey, 'false');
+    } else {
+        alert("Por favor, compartilhe a página antes de mostrar os palpites.");
+    }
+});
+
+
+// Função para verificar se a página foi compartilhada ou se o privilégio foi concedido
+function canShowPalpite() {
+    const hasShared = localStorage.getItem(localStorageSharedKey) === 'true'; // Verifica se foi compartilhado
+    const hasPrivilege = localStorage.getItem('privilegeAccess') === 'true'; // Verifica se o acesso privilegiado está ativado
+    return hasShared || hasPrivilege;
+}
+
+// Função para verificar e armazenar o privilégio via parâmetro de URL
+function checkPrivilegeAccess() {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('access') === 'privileged') {
+        // Armazena o privilégio no localStorage
+        localStorage.setItem('privilegeAccess', 'true');
+
+        // Remove o parâmetro 'access' da URL sem recarregar a página
+        const newUrl = window.location.origin + window.location.pathname; // URL sem parâmetros
+        window.history.replaceState({}, document.title, newUrl);
+    }
+}
+
+// Chama a função ao carregar a página
+checkPrivilegeAccess();
+
 
     // Função para lidar com o clique no botão 'Selecionar loteria' na seção Exibir Resultados
     selecionarLoteriaLink.addEventListener('click', function (event) {
