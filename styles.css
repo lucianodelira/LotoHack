@@ -412,15 +412,19 @@ select {
 
 /* Estilo para frases que contenham a palavra 'Milhar' */
 .frase-milhar {
-    background-color: rgba(76, 175, 80, 0.3); /* Tom verde com maior intensidade */
-    border-left: 5px solid #4CAF50; /* Adiciona uma borda verde para melhor destaque */
+    background-color: rgba(76, 175, 80, 0.3); /* Tom verde suave */
+    border-left: 5px solid #4CAF50; /* Borda verde para destaque */
     padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra escura suave */
+    border-radius: 5px; /* Bordas arredondadas para estilo */
 }
 
 /* Estilo para frases que contenham a palavra 'Centena' */
 .frase-centena {
-    background-color: rgba(255, 235, 59, 0.3); /* Tom amarelo com maior intensidade */
-    border-left: 5px solid #FFEB3B; /* Adiciona uma borda amarela para melhor destaque */
+    background-color: rgba(255, 235, 59, 0.3); /* Tom amarelo suave */
+    border-left: 5px solid #FFEB3B; /* Borda amarela para destaque */
     padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra escura suave */
+    border-radius: 5px; /* Bordas arredondadas para estilo */
 }
 
