@@ -102,6 +102,57 @@ const palpites = {
       "2070",
       "2073"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 5373 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 5273 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 5573 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 0373 no 7º Prêmio!"
+    ]
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "8042",
+      "8048",
+      "8041",
+      "8012",
+      "8018",
+      "8011",
+      "8082",
+      "8088",
+      "8081",
+      "8442",
+      "8448",
+      "8441",
+      "8412",
+      "8418",
+      "8411",
+      "8482",
+      "8488",
+      "8481",
+      "8142",
+      "8148",
+      "8141",
+      "8112",
+      "8118",
+      "8111",
+      "8182",
+      "8188",
+      "8181",
+      "0042",
+      "0048",
+      "0041"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1943 no 1º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Centena, Palpite 1043 no 1º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1043 no 1º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1343 no 1º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 5943 no 1º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1941 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Centena, Palpite 1041 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1041 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 1341 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 14h, 1º ao 10º\nDeu Dezena, Palpite 5941 no 8º Prêmio!"
+    ]
   }
 };
