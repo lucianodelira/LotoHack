@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const lastSelectedName = localStorage.getItem(localStorageNameKey);
         if (lastSelectedName && palpites[lastSelectedName]) {
             dropdownPalpite.value = lastSelectedName;
-            exibirFrasesPalpite(lastSelectedName);
+            exibirFrasesPalpitePorCategoria(lastSelectedName);
         }
     }
 
@@ -300,34 +300,116 @@ document.addEventListener('DOMContentLoaded', function () {
     dropdownPalpite.addEventListener('change', function () {
         const selectedName = this.value;
         localStorage.setItem(localStorageNameKey, selectedName);
-        exibirFrasesPalpite(selectedName);
+        exibirFrasesPalpitePorCategoria(selectedName);
         palpiteConteudoDiv.innerHTML = '';
     });
 
-// Função para exibir as frases na seção 'Palpite'
-function exibirFrasesPalpite(nome) {
-    frasesPalpitesDiv.innerHTML = ''; // Limpa as frases anteriores
+// Função para exibir as frases nas abas em formato de cards
+function exibirFrasesPalpitePorCategoria(nome) {
+    const frases = palpites[nome].frases;
+    const milharDiv = document.getElementById('milhar');
+    const centenaDiv = document.getElementById('centena');
+    const dezenaDiv = document.getElementById('dezena');
 
-    const dadosPalpite = palpites[nome];
-    if (!dadosPalpite) {
-        frasesPalpitesDiv.textContent = 'Dados indisponíveis.';
+    // Limpa o conteúdo anterior
+    milharDiv.innerHTML = '';
+    centenaDiv.innerHTML = '';
+    dezenaDiv.innerHTML = '';
+
+    let milharCount = 0;
+    let centenaCount = 0;
+    let dezenaCount = 0;
+
+    // Popula as abas com as frases correspondentes, exibidas em cards
+    frases.forEach(frase => {
+        const card = document.createElement('div');
+        card.classList.add('frase-palpite-card');
+        const p = document.createElement('p');
+        p.textContent = frase;
+        card.appendChild(p);
+
+        if (frase.includes('Milhar')) {
+            milharDiv.appendChild(card);
+            milharCount++;
+        } else if (frase.includes('Centena')) {
+            centenaDiv.appendChild(card);
+            centenaCount++;
+        } else if (frase.includes('Dezena')) {
+            dezenaDiv.appendChild(card);
+            dezenaCount++;
+        }
+    });
+
+    // Atualiza os contadores nas abas
+    document.getElementById('milharCount').textContent = milharCount;
+    document.getElementById('centenaCount').textContent = centenaCount;
+    document.getElementById('dezenaCount').textContent = dezenaCount;
+
+    // Exibe o título e as abas
+    document.getElementById('acertosPrevisoesTitulo').classList.remove('hidden');
+    document.getElementById('palpiteAbas').classList.remove('hidden');
+}
+
+// Modifique o evento do botão "Mostrar Palpite" para incluir as abas
+mostrarPalpiteBtn.addEventListener('click', function () {
+    const selectedName = dropdownPalpite.value;
+    if (!selectedName) {
+        alert("Por favor, selecione uma loteria primeiro.");
         return;
     }
 
-    dadosPalpite.frases.forEach(frase => {
-        const p = document.createElement('p');
-        p.textContent = frase;
+    if (!palpites || !palpites[selectedName]) {
+        alert("Dados para a loteria selecionada não estão disponíveis.");
+        return;
+    }
 
-        // Verifica se a frase contém 'Milhar' ou 'Centena' e aplica a classe correspondente
-        if (frase.toLowerCase().includes('milhar')) {
-            p.classList.add('frase-milhar');
-        } else if (frase.toLowerCase().includes('centena')) {
-            p.classList.add('frase-centena');
-        }
+    // Exibe as frases nas abas em cards
+    exibirFrasesPalpitePorCategoria(selectedName);
+});
 
-        frasesPalpitesDiv.appendChild(p);
+// Função para controlar a troca de abas
+document.querySelectorAll('.tab-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Remove a classe ativa de todas as abas
+        document.querySelectorAll('.tab-link').forEach(tab => tab.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.add('hidden'));
+
+        // Adiciona a classe ativa à aba clicada
+        this.classList.add('active');
+        const tabId = this.getAttribute('data-tab');
+        document.getElementById(tabId).classList.remove('hidden');
     });
-}
+});
+
+
+// Função para controlar a troca de abas
+document.querySelectorAll('.tab-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Remove a classe ativa de todas as abas
+        document.querySelectorAll('.tab-link').forEach(tab => tab.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.add('hidden'));
+
+        // Adiciona a classe ativa à aba clicada
+        this.classList.add('active');
+        const tabId = this.getAttribute('data-tab');
+        document.getElementById(tabId).classList.remove('hidden');
+
+        // Muda a cor da linha horizontal abaixo das abas
+        const tabList = document.querySelector('.tab-list');
+        tabList.classList.remove('active-milhar', 'active-centena', 'active-dezena');
+        if (tabId === 'milhar') {
+            tabList.classList.add('active-milhar');
+        } else if (tabId === 'centena') {
+            tabList.classList.add('active-centena');
+        } else if (tabId === 'dezena') {
+            tabList.classList.add('active-dezena');
+        }
+    });
+});
 
     // Função para exibir os palpites com efeito de carregamento
     function exibirPalpitesComLoading(nome) {
