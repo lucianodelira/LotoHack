@@ -411,55 +411,50 @@ document.querySelectorAll('.tab-link').forEach(link => {
     });
 });
 
-    // Função para exibir os palpites com efeito de carregamento
-    function exibirPalpitesComLoading(nome) {
-        palpiteConteudoDiv.innerHTML = '';
 
-        const loader = document.createElement('div');
-        loader.classList.add('loader');
-        palpiteConteudoDiv.appendChild(loader);
+// Função para exibir os palpites com efeito de carregamento
+function exibirPalpitesComLoading(nome) {
+    palpiteConteudoDiv.innerHTML = '';
 
-        setTimeout(() => {
-            loader.remove();
+    const loader = document.createElement('div');
+    loader.classList.add('loader');
+    palpiteConteudoDiv.appendChild(loader);
 
-            // Cria e adiciona a frase personalizada
-            const fraseP = document.createElement('p');
-            fraseP.textContent = `Jogue M/MC/C/D do 1º ao 5º ou do 1º ao 10º na loteria ${nome}.`;
-            fraseP.classList.add('frase-palpite'); // Alinha à direita via CSS
-            palpiteConteudoDiv.appendChild(fraseP);
+    setTimeout(() => {
+        loader.remove();
 
-            const dadosPalpite = palpites[nome];
-            if (!dadosPalpite) {
-                palpiteConteudoDiv.textContent = 'Dados indisponíveis.';
-                return;
-            }
+        // Cria e adiciona a frase personalizada
+        const fraseP = document.createElement('p');
+        fraseP.textContent = `Jogue M/MC/C/D do 1º ao 5º ou do 1º ao 10º na loteria ${nome}.`;
+        fraseP.classList.add('frase-palpite'); // Alinha à direita via CSS
+        palpiteConteudoDiv.appendChild(fraseP);
 
-            const tabelaPalpites = criarTabelaPalpites(dadosPalpite.palpites);
-            palpiteConteudoDiv.appendChild(tabelaPalpites);
-        }, 2000); // 2 segundos de carregamento simulado
-    }
-
-    // Função para criar uma tabela de palpites com 5 colunas
-    function criarTabelaPalpites(palpitesArray) {
-        const table = document.createElement('table');
-        const tbody = document.createElement('tbody');
-
-        const rows = Math.ceil(palpitesArray.length / 5);
-        for (let i = 0; i < rows; i++) {
-            const tr = document.createElement('tr');
-            for (let j = 0; j < 5; j++) {
-                const index = i * 5 + j;
-                const td = document.createElement('td');
-                td.textContent = palpitesArray[index] || ''; // Preenche com vazio se não houver
-                tr.appendChild(td);
-            }
-            tbody.appendChild(tr);
+        const dadosPalpite = palpites[nome];
+        if (!dadosPalpite) {
+            palpiteConteudoDiv.textContent = 'Dados indisponíveis.';
+            return;
         }
 
-        table.appendChild(tbody);
-        return table;
-    }
+        // Cria e adiciona os cartões de palpites
+        const cardsPalpites = criarCartoesPalpites(dadosPalpite.palpites);
+        palpiteConteudoDiv.appendChild(cardsPalpites);
+    }, 2000); // 2 segundos de carregamento simulado
+}
 
+// Função para criar cartões de palpites
+function criarCartoesPalpites(palpitesArray) {
+    const containerDiv = document.createElement('div');
+    containerDiv.classList.add('cards-container'); // Usaremos esta classe para organizar os cartões
+
+    palpitesArray.forEach(palpite => {
+        const cardDiv = document.createElement('div');
+        cardDiv.classList.add('card-palpite'); // Classe CSS para o estilo do card
+        cardDiv.textContent = palpite; // Exibe o palpite dentro do card
+        containerDiv.appendChild(cardDiv);
+    });
+
+    return containerDiv;
+}
 
 // Modifique o evento do botão "Mostrar palpite"
 mostrarPalpiteBtn.addEventListener('click', function () {
@@ -528,6 +523,17 @@ checkPrivilegeAccess();
         expandMenu.classList.toggle('hidden');
         expandMenu.classList.toggle('active'); // Para animação CSS
     });
+
+// Função para fechar o menu expandido ao rolar a página
+function fecharMenuAoRolar() {
+    if (expandMenu.classList.contains('active')) {
+        expandMenu.classList.remove('active');
+        expandMenu.classList.add('hidden');
+    }
+}
+
+// Adiciona o evento de rolagem
+window.addEventListener('scroll', fecharMenuAoRolar);
 
     // Função para lidar com os cliques nos itens do menu expandido
     expandMenu.addEventListener('click', function (event) {
