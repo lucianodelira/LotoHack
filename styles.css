@@ -409,3 +409,18 @@ select {
     hyphens: auto;
     word-break: break-word;
 }
+
+/* Estilo para frases que contenham a palavra 'Milhar' */
+.frase-milhar {
+    background-color: rgba(76, 175, 80, 0.3); /* Tom verde com maior intensidade */
+    border-left: 5px solid #4CAF50; /* Adiciona uma borda verde para melhor destaque */
+    padding: 10px;
+}
+
+/* Estilo para frases que contenham a palavra 'Centena' */
+.frase-centena {
+    background-color: rgba(255, 235, 59, 0.3); /* Tom amarelo com maior intensidade */
+    border-left: 5px solid #FFEB3B; /* Adiciona uma borda amarela para melhor destaque */
+    padding: 10px;
+}
+

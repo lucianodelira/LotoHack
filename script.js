@@ -304,22 +304,30 @@ document.addEventListener('DOMContentLoaded', function () {
         palpiteConteudoDiv.innerHTML = '';
     });
 
-    // Função para exibir as frases na seção 'Palpite'
-    function exibirFrasesPalpite(nome) {
-        frasesPalpitesDiv.innerHTML = '';
+// Função para exibir as frases na seção 'Palpite'
+function exibirFrasesPalpite(nome) {
+    frasesPalpitesDiv.innerHTML = ''; // Limpa as frases anteriores
 
-        const dadosPalpite = palpites[nome];
-        if (!dadosPalpite) {
-            frasesPalpitesDiv.textContent = 'Dados indisponíveis.';
-            return;
+    const dadosPalpite = palpites[nome];
+    if (!dadosPalpite) {
+        frasesPalpitesDiv.textContent = 'Dados indisponíveis.';
+        return;
+    }
+
+    dadosPalpite.frases.forEach(frase => {
+        const p = document.createElement('p');
+        p.textContent = frase;
+
+        // Verifica se a frase contém 'Milhar' ou 'Centena' e aplica a classe correspondente
+        if (frase.toLowerCase().includes('milhar')) {
+            p.classList.add('frase-milhar');
+        } else if (frase.toLowerCase().includes('centena')) {
+            p.classList.add('frase-centena');
         }
 
-        dadosPalpite.frases.forEach(frase => {
-            const p = document.createElement('p');
-            p.textContent = frase;
-            frasesPalpitesDiv.appendChild(p);
-        });
-    }
+        frasesPalpitesDiv.appendChild(p);
+    });
+}
 
     // Função para exibir os palpites com efeito de carregamento
     function exibirPalpitesComLoading(nome) {
