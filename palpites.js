@@ -117,5 +117,47 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8424 no 10º Prêmio!",
       "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8124 no 10º Prêmio!"
     ]
+  },
+  "LOOK/GOIAS": {
+    "palpites": [
+      "0207",
+      "0200",
+      "0208",
+      "0287",
+      "0280",
+      "0288",
+      "0227",
+      "0220",
+      "0228",
+      "0007",
+      "0000",
+      "0008",
+      "0087",
+      "0080",
+      "0088",
+      "0027",
+      "0020",
+      "0028",
+      "0507",
+      "0500",
+      "0508",
+      "0587",
+      "0580",
+      "0588",
+      "0527",
+      "0520",
+      "0528",
+      "6207",
+      "6200",
+      "6208"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5008 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5608 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5808 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5008 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5608 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 5808 no 8º Prêmio!"
+    ]
   }
 };
