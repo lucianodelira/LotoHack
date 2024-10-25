@@ -212,6 +212,77 @@ const resultado = {
           "Elefante"
         ]
       ]
+    },
+    {
+      "titulo": "19h - MALUCA - BA - Resultado do dia 25/10/2024 (Sexta-feira)",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "2542",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "2º",
+          "3668",
+          "17",
+          "Macaco"
+        ],
+        [
+          "3º",
+          "8015",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "4º",
+          "0555",
+          "14",
+          "Gato"
+        ],
+        [
+          "5º",
+          "0577",
+          "20",
+          "Peru"
+        ],
+        [
+          "6º",
+          "8048",
+          "12",
+          "Elefante"
+        ],
+        [
+          "7º",
+          "5094",
+          "24",
+          "Veado"
+        ],
+        [
+          "8º",
+          "1926",
+          "07",
+          "Carneiro"
+        ],
+        [
+          "9º",
+          "9140",
+          "10",
+          "Coelho"
+        ],
+        [
+          "10º",
+          "2027",
+          "07",
+          "Carneiro"
+        ]
+      ]
     }
   ],
   "BAHIA": [
