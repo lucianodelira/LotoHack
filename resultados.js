@@ -1572,6 +1572,130 @@ const resultado = {
           "Camelo"
         ]
       ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 10hs - PTSP, 1º ao 5º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "5901",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "2º",
+          "0624",
+          "06",
+          "Cabra"
+        ],
+        [
+          "3º",
+          "1345",
+          "12",
+          "Elefante"
+        ],
+        [
+          "4º",
+          "3772",
+          "18",
+          "Porco"
+        ],
+        [
+          "5º",
+          "7402",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "6º [soma]",
+          "9044",
+          "",
+          ""
+        ],
+        [
+          "7º [mult]",
+          "682",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho SP, 10hs - PTSP, 1º ao 10º",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "5901",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "2º",
+          "0624",
+          "06",
+          "Cabra"
+        ],
+        [
+          "3º",
+          "1345",
+          "12",
+          "Elefante"
+        ],
+        [
+          "4º",
+          "3772",
+          "18",
+          "Porco"
+        ],
+        [
+          "5º",
+          "7402",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "6º",
+          "5013",
+          "04",
+          "Borboleta"
+        ],
+        [
+          "7º",
+          "9637",
+          "10",
+          "Coelho"
+        ],
+        [
+          "8º",
+          "0247",
+          "12",
+          "Elefante"
+        ],
+        [
+          "9º",
+          "1452",
+          "13",
+          "Galo"
+        ],
+        [
+          "10º",
+          "5393",
+          "24",
+          "Veado"
+        ]
+      ]
     }
   ]
 };
