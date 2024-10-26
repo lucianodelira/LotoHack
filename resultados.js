@@ -1550,6 +1550,77 @@ const resultado = {
           "Borboleta"
         ]
       ]
+    },
+    {
+      "titulo": "Resultado do Jogo do Bicho LOTEP - PB, 18h",
+      "conteudo": [
+        [
+          "Prêmio",
+          "Milhar",
+          "Grupo",
+          "Bicho"
+        ],
+        [
+          "1º",
+          "9260",
+          "15",
+          "Jacaré"
+        ],
+        [
+          "2º",
+          "9244",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "3º",
+          "8743",
+          "11",
+          "Cavalo"
+        ],
+        [
+          "4º",
+          "6102",
+          "01",
+          "Avestruz"
+        ],
+        [
+          "5º",
+          "4138",
+          "10",
+          "Coelho"
+        ],
+        [
+          "6º",
+          "9986",
+          "22",
+          "Tigre"
+        ],
+        [
+          "7º",
+          "2271",
+          "18",
+          "Porco"
+        ],
+        [
+          "8º",
+          "6440",
+          "10",
+          "Coelho"
+        ],
+        [
+          "9º",
+          "0432",
+          "08",
+          "Camelo"
+        ],
+        [
+          "10º",
+          "6616",
+          "04",
+          "Borboleta"
+        ]
+      ]
     }
   ],
   "PT RIO": [
