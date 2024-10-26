@@ -350,23 +350,6 @@ function exibirFrasesPalpitePorCategoria(nome) {
     document.getElementById('palpiteAbas').classList.remove('hidden');
 }
 
-// Modifique o evento do botão "Mostrar Palpite" para incluir as abas
-mostrarPalpiteBtn.addEventListener('click', function () {
-    const selectedName = dropdownPalpite.value;
-    if (!selectedName) {
-        alert("Por favor, selecione uma loteria primeiro.");
-        return;
-    }
-
-    if (!palpites || !palpites[selectedName]) {
-        alert("Dados para a loteria selecionada não estão disponíveis.");
-        return;
-    }
-
-    // Exibe as frases nas abas em cards
-    exibirFrasesPalpitePorCategoria(selectedName);
-});
-
 // Função para controlar a troca de abas
 document.querySelectorAll('.tab-link').forEach(link => {
     link.addEventListener('click', function (e) {
@@ -382,7 +365,6 @@ document.querySelectorAll('.tab-link').forEach(link => {
         document.getElementById(tabId).classList.remove('hidden');
     });
 });
-
 
 // Função para controlar a troca de abas
 document.querySelectorAll('.tab-link').forEach(link => {
@@ -411,10 +393,37 @@ document.querySelectorAll('.tab-link').forEach(link => {
     });
 });
 
+const tabelaGrupos = {
+    1: { nome: 'Avestruz', emoji: '🦩' },
+    2: { nome: 'Águia', emoji: '🦅' },
+    3: { nome: 'Burro', emoji: '🐴' },
+    4: { nome: 'Borboleta', emoji: '🦋' },
+    5: { nome: 'Cachorro', emoji: '🐶' },
+    6: { nome: 'Cabra', emoji: '🐐' },
+    7: { nome: 'Carneiro', emoji: '🐏' },
+    8: { nome: 'Camelo', emoji: '🐫' },
+    9: { nome: 'Cobra', emoji: '🐍' },
+    10: { nome: 'Coelho', emoji: '🐰' },
+    11: { nome: 'Cavalo', emoji: '🐎' },
+    12: { nome: 'Elefante', emoji: '🐘' },
+    13: { nome: 'Galo', emoji: '🐓' },
+    14: { nome: 'Gato', emoji: '🐱' },
+    15: { nome: 'Jacaré', emoji: '🐊' },
+    16: { nome: 'Leão', emoji: '🦁' },
+    17: { nome: 'Macaco', emoji: '🐒' },
+    18: { nome: 'Porco', emoji: '🐖' },
+    19: { nome: 'Pavão', emoji: '🦚' },
+    20: { nome: 'Peru', emoji: '🦃' },
+    21: { nome: 'Touro', emoji: '🐂' },
+    22: { nome: 'Tigre', emoji: '🐯' },
+    23: { nome: 'Urso', emoji: '🐻' },
+    24: { nome: 'Veado', emoji: '🦌' },
+    25: { nome: 'Vaca', emoji: '🐄' }
+};
 
-// Função para exibir os palpites com efeito de carregamento
+// Função para exibir os palpites com efeito de carregamento e seções personalizadas
 function exibirPalpitesComLoading(nome) {
-    palpiteConteudoDiv.innerHTML = '';
+    palpiteConteudoDiv.innerHTML = ''; // Limpa conteúdo anterior
 
     const loader = document.createElement('div');
     loader.classList.add('loader');
@@ -423,11 +432,37 @@ function exibirPalpitesComLoading(nome) {
     setTimeout(() => {
         loader.remove();
 
-        // Cria e adiciona a frase personalizada
+        // Frase personalizada
         const fraseP = document.createElement('p');
-        fraseP.textContent = `Jogue M/MC/C/D do 1º ao 5º ou do 1º ao 10º na loteria ${nome}.`;
-        fraseP.classList.add('frase-palpite'); // Alinha à direita via CSS
+        fraseP.textContent = `Aposte os números abaixo na loteria ${nome}.`;
+        fraseP.classList.add('frase-palpite');
         palpiteConteudoDiv.appendChild(fraseP);
+
+        // Cria os botões de alternância das categorias
+        const botoesCategorias = document.createElement('div');
+        botoesCategorias.classList.add('botoes-categorias');
+
+        // Função auxiliar para criar botão com funcionalidade de ativação
+        function criarBotao(texto, categoriaId) {
+            const botao = document.createElement('button');
+            botao.textContent = texto;
+            botao.addEventListener('click', () => {
+                mostrarCategoria(categoriaId);
+                document.querySelectorAll('.botoes-categorias button').forEach(b => b.classList.remove('ativo'));
+                botao.classList.add('ativo'); // Marca o botão atual como ativo
+            });
+            return botao;
+        }
+
+        // Cria cada botão com a classe de estilo
+        const botaoMilhar = criarBotao('M/MC', 'Milhar');
+        const botaoCentena = criarBotao('C', 'Centena');
+        const botaoDezena = criarBotao('D', 'Dezena');
+        const botaoGrupo = criarBotao('G', 'Grupo');
+
+        // Adiciona os botões ao contêiner e o contêiner ao conteúdo dos palpites
+        botoesCategorias.append(botaoMilhar, botaoCentena, botaoDezena, botaoGrupo);
+        palpiteConteudoDiv.appendChild(botoesCategorias);
 
         const dadosPalpite = palpites[nome];
         if (!dadosPalpite) {
@@ -435,26 +470,127 @@ function exibirPalpitesComLoading(nome) {
             return;
         }
 
-        // Cria e adiciona os cartões de palpites
-        const cardsPalpites = criarCartoesPalpites(dadosPalpite.palpites);
-        palpiteConteudoDiv.appendChild(cardsPalpites);
-    }, 2000); // 2 segundos de carregamento simulado
+        // Gera e esconde as seções de palpite
+        const milhares = [...new Set(dadosPalpite.palpites)];
+        const centenas = [...new Set(milhares.map(num => num.slice(1)))];
+        const dezenas = [...new Set(milhares.map(num => num.slice(2)))];
+        const grupos = gerarGruposFrequentes(dadosPalpite.palpites);
+
+        criarSecaoPalpite(milhares, 'Milhar');
+        criarSecaoPalpite(centenas, 'Centena');
+        criarSecaoPalpite(dezenas, 'Dezena');
+        criarSecaoPalpite(grupos, 'Grupo');
+
+        // Exibe a categoria inicial e marca o botão "M/MC" como ativo
+        mostrarCategoria('Milhar');
+        botaoMilhar.classList.add('ativo');
+    }, 2000);
 }
 
-// Função para criar cartões de palpites
-function criarCartoesPalpites(palpitesArray) {
-    const containerDiv = document.createElement('div');
-    containerDiv.classList.add('cards-container'); // Usaremos esta classe para organizar os cartões
 
-    palpitesArray.forEach(palpite => {
-        const cardDiv = document.createElement('div');
-        cardDiv.classList.add('card-palpite'); // Classe CSS para o estilo do card
-        cardDiv.textContent = palpite; // Exibe o palpite dentro do card
-        containerDiv.appendChild(cardDiv);
+// Função para mostrar uma categoria específica
+function mostrarCategoria(categoria) {
+    // Esconde todas as categorias primeiro
+    document.querySelectorAll('.cards-container').forEach(div => {
+        div.style.display = 'none';
     });
 
-    return containerDiv;
+    // Mostra a categoria selecionada
+    const categoriaDiv = document.getElementById(`secao-${categoria}`);
+    if (categoriaDiv) categoriaDiv.style.display = 'flex';
 }
+
+// Atualiza a função criarSecaoPalpite para identificar cada seção por categoria
+function criarSecaoPalpite(numeros, id) {
+    const sectionDiv = document.createElement('div');
+    sectionDiv.classList.add('cards-container'); // aplica o estilo original de centralização
+    sectionDiv.id = `secao-${id}`; // Adiciona um id único para cada categoria
+
+    numeros.forEach(numero => {
+        const cardDiv = document.createElement('div');
+        cardDiv.classList.add('card-palpite');
+        cardDiv.textContent = numero;
+        sectionDiv.appendChild(cardDiv);
+    });
+
+    sectionDiv.style.display = 'none'; // Esconde inicialmente
+    palpiteConteudoDiv.appendChild(sectionDiv);
+}
+
+// Função para gerar os grupos mais frequentes com o nome do bicho e emoji
+function gerarGruposFrequentes(palpites) {
+    const grupoContagem = {};
+
+    // Conta a frequência dos grupos
+    palpites.forEach(num => {
+        const grupoNum = Math.ceil(parseInt(num.slice(2)) / 4); // Calcula o grupo baseado nos dois últimos dígitos
+        if (tabelaGrupos[grupoNum]) {
+            grupoContagem[grupoNum] = (grupoContagem[grupoNum] || 0) + 1;
+        }
+    });
+
+    // Seleciona apenas grupos com frequência mínima de 2 e formata para exibição
+    return Object.entries(grupoContagem)
+        .filter(([_, count]) => count >= 2)
+        .map(([grupoNum, _]) => `${grupoNum} - ${tabelaGrupos[grupoNum].nome} ${tabelaGrupos[grupoNum].emoji}`);
+}
+
+// Função para exibir uma mensagem flutuante com botão de fechamento
+function exibirMensagemFlutuante() {
+    // Cria o contêiner para o fundo desfocado
+    const fundoDiv = document.createElement('div');
+    fundoDiv.style.position = 'fixed';
+    fundoDiv.style.top = '0';
+    fundoDiv.style.left = '0';
+    fundoDiv.style.width = '100%';
+    fundoDiv.style.height = '100%';
+    fundoDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'; // Fundo semi-transparente
+    fundoDiv.style.zIndex = '999'; // Z-index abaixo da mensagem
+    fundoDiv.style.backdropFilter = 'blur(5px)'; // Efeito de desfoque
+    fundoDiv.style.display = 'flex';
+    fundoDiv.style.justifyContent = 'center';
+    fundoDiv.style.alignItems = 'center';
+
+    // Cria o contêiner da mensagem
+    const mensagemDiv = document.createElement('div');
+    mensagemDiv.style.padding = '15px';
+    mensagemDiv.style.width = '300px'; // Ajuste a largura conforme necessário
+    mensagemDiv.style.backgroundColor = '#333';
+    mensagemDiv.style.color = '#fff';
+    mensagemDiv.style.borderRadius = '8px';
+    mensagemDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+    mensagemDiv.style.zIndex = '1000'; // Z-index acima do fundo desfocado
+    mensagemDiv.style.position = 'relative'; // Para que o botão de fechar fique posicionado corretamente
+
+    // Adiciona o conteúdo da mensagem
+    mensagemDiv.innerHTML = `
+        <p>Para desativar a obrigação de Compartilhar a página antes de ver os palpites e não ver mais os anúncios, <a href="purchase.html" style="color: #ffdd57; text-decoration: underline;">clique aqui!</a></p>
+    `;
+
+    // Botão de fechar a mensagem
+    const fecharBtn = document.createElement('button');
+    fecharBtn.textContent = 'X';
+    fecharBtn.style.position = 'absolute';
+    fecharBtn.style.top = '5px';
+    fecharBtn.style.right = '5px';
+    fecharBtn.style.background = 'transparent';
+    fecharBtn.style.color = '#fff';
+    fecharBtn.style.border = 'none';
+    fecharBtn.style.cursor = 'pointer';
+
+    // Fecha a mensagem ao clicar no botão
+    fecharBtn.addEventListener('click', () => {
+        fundoDiv.remove(); // Remove o fundo desfocado
+        mensagemDiv.remove(); // Remove a mensagem
+    });
+
+    // Adiciona o botão ao contêiner da mensagem
+    mensagemDiv.appendChild(fecharBtn);
+    // Adiciona a mensagem e o fundo ao corpo do documento
+    fundoDiv.appendChild(mensagemDiv);
+    document.body.appendChild(fundoDiv);
+}
+
 
 // Modifique o evento do botão "Mostrar palpite"
 mostrarPalpiteBtn.addEventListener('click', function () {
@@ -470,17 +606,22 @@ mostrarPalpiteBtn.addEventListener('click', function () {
     }
 
     // Verifica se o usuário pode ver os palpites (seja por compartilhamento ou por privilégio)
-
     if (canShowPalpite()) {
         // Exibir os palpites com efeito de carregamento
         exibirPalpitesComLoading(selectedName);
+
         // Resetar o status de compartilhamento
         localStorage.setItem(localStorageSharedKey, 'false');
+
+        // Se o usuário não tiver privilégio, exibe a mensagem flutuante após 10 segundos
+        if (!localStorage.getItem('privilegeAccess')) {
+            setTimeout(exibirMensagemFlutuante, 10000);
+        }
+
     } else {
         alert("Por favor, compartilhe a página antes de mostrar os palpites.");
     }
 });
-
 
 // Função para verificar se a página foi compartilhada ou se o privilégio foi concedido
 function canShowPalpite() {
@@ -607,26 +748,6 @@ window.addEventListener('scroll', fecharMenuAoRolar);
         // Opcional: Mostrar um botão para instalar o PWA
         // Como estamos usando o menu, a instalação será acionada pelo item do menu
     });
-
-    // Função para abrir opções de compartilhamento
-    function abrirOpcoesCompartilhamento() {
-        if (navigator.share) {
-            navigator.share({
-                title: document.title,
-                text: 'Aumente suas chances de ganhar no Jogo do Bicho com os melhores palpites e estatísticas certeiras! Confira agora os resultados mais recentes e receba dicas valiosas para fazer sua próxima aposta vencedora!',
-                url: window.location.href
-            }).then(() => {
-                console.log('Compartilhamento bem-sucedido');
-                // Define o status de compartilhamento no localStorage somente após sucesso
-                localStorage.setItem(localStorageSharedKey, 'true');
-            }).catch((error) => {
-                console.log('Compartilhamento cancelado ou erro:', error);
-                // Não define o status de compartilhamento se o compartilhamento foi cancelado ou falhou
-            });
-        } else {
-            alert('Compartilhamento não suportado neste navegador.');
-        }
-    }
 
     // Função para definir o ícone ativo
     function setActiveIcon(activeIcon) {
