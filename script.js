@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Novas Seções de Conteúdo
     const comoFuncionaSection = document.getElementById('comoFunciona');
+    const indiqueGanheSection = document.getElementById('indiqueGanhe');
     const politicasPrivacidadeSection = document.getElementById('politicasPrivacidade');
     const termosServicoSection = document.getElementById('termosServico');
     const sobreSection = document.getElementById('sobre');
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         modoPalpiteSection.classList.add('hidden');
         modoJogarSection.classList.add('hidden');
         comoFuncionaSection.classList.add('hidden');
+        indiqueGanheSection.classList.add('hidden');
         politicasPrivacidadeSection.classList.add('hidden');
         termosServicoSection.classList.add('hidden');
         sobreSection.classList.add('hidden');
@@ -564,7 +566,7 @@ function exibirMensagemFlutuante() {
 
     // Adiciona o conteúdo da mensagem
     mensagemDiv.innerHTML = `
-        <p>Para desativar a obrigação de Compartilhar a página antes de ver os palpites e não ver mais os anúncios, <a href="purchase.html" style="color: #ffdd57; text-decoration: underline;">clique aqui!</a></p>
+        <p>Para desativar a obrigação de Compartilhar a página antes de ver os palpites e não ver mais os anúncios, <a href="https://pay.kiwify.com.br/c1QEKkB" style="color: #ffdd57; text-decoration: underline;">clique aqui!</a></p>
     `;
 
     // Botão de fechar a mensagem
