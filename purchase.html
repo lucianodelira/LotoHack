@@ -27,12 +27,16 @@
         const data = await response.json();
         
         if (data.qr_code) {
-          document.getElementById('qrcode').innerHTML = `<img src="${data.qr_code}" alt="QR Code do PIX">`;
+          // Verifique se o QR Code está em formato URL ou base64; ajuste conforme o caso.
+          const qrCodeImage = data.qr_code.startsWith('http') ? data.qr_code : `data:image/png;base64,${data.qr_code}`;
+          document.getElementById('qrcode').innerHTML = `<img src="${qrCodeImage}" alt="QR Code do PIX">`;
           checkPaymentStatus(data.id);
         } else {
           document.getElementById('qrcode').innerText = "Erro ao gerar QR Code.";
+          console.error("Erro na resposta da API:", data);
         }
       } catch (error) {
+        document.getElementById('qrcode').innerText = "Erro ao criar pagamento.";
         console.error("Erro ao criar pagamento:", error);
       }
     }
@@ -49,7 +53,7 @@
             clearInterval(intervalId);
             statusDiv.style.display = 'none';
             document.getElementById('payment-completed').style.display = 'block';
-            setTimeout(() => window.location.href = "URL_DE_REDIRECIONAMENTO", 3000);
+            setTimeout(() => window.location.href = "URL_DE_REDIRECIONAMENTO", 3000); // Redirecione após 3 segundos
           }
         } catch (error) {
           console.error("Erro ao verificar status do pagamento:", error);
@@ -57,6 +61,7 @@
       }, 5000);  // Verifica a cada 5 segundos
     }
 
+    // Chama a função ao carregar a página
     createPixPayment();
   </script>
 </body>
