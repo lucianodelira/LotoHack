@@ -142,7 +142,12 @@ const palpites = {
       "4133",
       "4138"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 0551 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 0151 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 0751 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 4551 no 10º Prêmio!"
+    ]
   },
   "LOTEP": {
     "palpites": [
@@ -185,38 +190,43 @@ const palpites = {
   },
   "PT RIO": {
     "palpites": [
-      "0558",
-      "0559",
-      "0550",
-      "0508",
-      "0509",
-      "0500",
-      "0568",
-      "0569",
-      "0560",
-      "0658",
-      "0659",
-      "0650",
-      "0608",
-      "0609",
-      "0600",
-      "0668",
-      "0669",
-      "0660",
-      "0758",
-      "0759",
-      "0750",
-      "0708",
-      "0709",
-      "0700",
-      "0768",
-      "0769",
-      "0760",
-      "2558",
-      "2559",
-      "2550"
+      "5594",
+      "5595",
+      "5599",
+      "5584",
+      "5585",
+      "5589",
+      "5504",
+      "5505",
+      "5509",
+      "5294",
+      "5295",
+      "5299",
+      "5284",
+      "5285",
+      "5289",
+      "5204",
+      "5205",
+      "5209",
+      "5094",
+      "5095",
+      "5099",
+      "5084",
+      "5085",
+      "5089",
+      "5004",
+      "5005",
+      "5009",
+      "1594",
+      "1595",
+      "1599"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0550 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0650 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 0750 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 11:00, PTM, 1º ao 10º\nDeu Dezena, Palpite 2550 no 6º Prêmio!"
+    ]
   },
   "PT SP": {
     "palpites": [
