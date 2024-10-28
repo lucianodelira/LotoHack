@@ -535,62 +535,73 @@ function gerarGruposFrequentes(palpites) {
         .map(([grupoNum, _]) => `${grupoNum} - ${tabelaGrupos[grupoNum].nome} ${tabelaGrupos[grupoNum].emoji}`);
 }
 
-// Função para exibir uma mensagem flutuante com botão de fechamento
-function exibirMensagemFlutuante() {
-    // Cria o contêiner para o fundo desfocado
-    const fundoDiv = document.createElement('div');
-    fundoDiv.style.position = 'fixed';
-    fundoDiv.style.top = '0';
-    fundoDiv.style.left = '0';
-    fundoDiv.style.width = '100%';
-    fundoDiv.style.height = '100%';
-    fundoDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'; // Fundo semi-transparente
-    fundoDiv.style.zIndex = '999'; // Z-index abaixo da mensagem
-    fundoDiv.style.backdropFilter = 'blur(5px)'; // Efeito de desfoque
-    fundoDiv.style.display = 'flex';
-    fundoDiv.style.justifyContent = 'center';
-    fundoDiv.style.alignItems = 'center';
+    // Função para exibir uma mensagem flutuante com fundo desfocado e botão "OK"
+    function exibirMensagemFlutuante(mensagem) {
+        // Cria o fundo desfocado
+        const fundoDiv = document.createElement('div');
+        fundoDiv.style.position = 'fixed';
+        fundoDiv.style.top = '0';
+        fundoDiv.style.left = '0';
+        fundoDiv.style.width = '100%';
+        fundoDiv.style.height = '100%';
+        fundoDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+        fundoDiv.style.zIndex = '999';
+        fundoDiv.style.backdropFilter = 'blur(5px)';
+        fundoDiv.style.display = 'flex';
+        fundoDiv.style.justifyContent = 'center';
+        fundoDiv.style.alignItems = 'center';
 
-    // Cria o contêiner da mensagem
-    const mensagemDiv = document.createElement('div');
-    mensagemDiv.style.padding = '15px';
-    mensagemDiv.style.width = '300px'; // Ajuste a largura conforme necessário
-    mensagemDiv.style.backgroundColor = '#333';
-    mensagemDiv.style.color = '#fff';
-    mensagemDiv.style.borderRadius = '8px';
-    mensagemDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
-    mensagemDiv.style.zIndex = '1000'; // Z-index acima do fundo desfocado
-    mensagemDiv.style.position = 'relative'; // Para que o botão de fechar fique posicionado corretamente
+        // Cria o contêiner da mensagem
+        const mensagemDiv = document.createElement('div');
+        mensagemDiv.style.padding = '15px';
+        mensagemDiv.style.width = '300px';
+        mensagemDiv.style.backgroundColor = '#333';
+        mensagemDiv.style.color = '#fff';
+        mensagemDiv.style.borderRadius = '8px';
+        mensagemDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+        mensagemDiv.style.zIndex = '1000';
+        mensagemDiv.style.position = 'relative';
 
-    // Adiciona o conteúdo da mensagem
-    mensagemDiv.innerHTML = `
-        <p>Para desativar a obrigação de Compartilhar a página antes de ver os palpites e não ver mais os anúncios, <a href="https://mpago.la/25bsxCc" style="color: #ffdd57; text-decoration: underline;">clique aqui!</a></p>
+        // Adiciona o conteúdo da mensagem e o botão "OK"
+        mensagemDiv.innerHTML = `<p>${mensagem}</p>`;
+        const okBtn = document.createElement('button');
+        okBtn.textContent = 'OK';
+        okBtn.style.marginTop = '10px';
+        okBtn.style.padding = '5px 10px';
+        okBtn.style.background = '#ffdd57';
+        okBtn.style.color = '#333';
+        okBtn.style.border = 'none';
+        okBtn.style.borderRadius = '5px';
+        okBtn.style.cursor = 'pointer';
+
+        // Evento de fechamento da mensagem
+        okBtn.addEventListener('click', () => {
+            fundoDiv.remove(); // Remove o fundo desfocado
+            document.body.classList.remove('no-scroll'); // Reativa o scroll
+        });
+
+        // Adiciona o botão à mensagem e a mensagem ao fundo
+        mensagemDiv.appendChild(okBtn);
+        fundoDiv.appendChild(mensagemDiv);
+        document.body.appendChild(fundoDiv);
+
+        // Desativa o scroll
+        document.body.classList.add('no-scroll');
+    }
+
+    // CSS para desativar o scroll quando a classe 'no-scroll' estiver presente
+    const style = document.createElement('style');
+    style.innerHTML = `
+        .no-scroll {
+            overflow: hidden;
+        }
     `;
+    document.head.appendChild(style);
 
-    // Botão de fechar a mensagem
-    const fecharBtn = document.createElement('button');
-    fecharBtn.textContent = 'X';
-    fecharBtn.style.position = 'absolute';
-    fecharBtn.style.top = '5px';
-    fecharBtn.style.right = '5px';
-    fecharBtn.style.background = 'transparent';
-    fecharBtn.style.color = '#fff';
-    fecharBtn.style.border = 'none';
-    fecharBtn.style.cursor = 'pointer';
-
-    // Fecha a mensagem ao clicar no botão
-    fecharBtn.addEventListener('click', () => {
-        fundoDiv.remove(); // Remove o fundo desfocado
-        mensagemDiv.remove(); // Remove a mensagem
-    });
-
-    // Adiciona o botão ao contêiner da mensagem
-    mensagemDiv.appendChild(fecharBtn);
-    // Adiciona a mensagem e o fundo ao corpo do documento
-    fundoDiv.appendChild(mensagemDiv);
-    document.body.appendChild(fundoDiv);
-}
-
+    // Substituição de alert() com exibirMensagemFlutuante
+    function alert(mensagem) {
+        exibirMensagemFlutuante(mensagem);
+    }
 
 // Modifique o evento do botão "Mostrar palpite"
 mostrarPalpiteBtn.addEventListener('click', function () {
@@ -613,10 +624,15 @@ mostrarPalpiteBtn.addEventListener('click', function () {
         // Resetar o status de compartilhamento
         localStorage.setItem(localStorageSharedKey, 'false');
 
-        // Se o usuário não tiver privilégio, exibe a mensagem flutuante após 10 segundos
-        if (!localStorage.getItem('privilegeAccess')) {
-            setTimeout(exibirMensagemFlutuante, 10000);
-        }
+        // Se o usuário não tiver privilégio, exibe a mensagem de alerta customizada após 10 segundos
+	if (!localStorage.getItem('privilegeAccess')) {
+	    setTimeout(() => {
+	        alert(`
+	            <p>Para desativar a obrigação de Compartilhar a página antes de ver os palpites e não ver mais os anúncios, 
+	            <a href="https://mpago.la/25bsxCc" style="color: #ffdd57; text-decoration: underline;">clique aqui!</a></p>
+	        `);
+	    }, 10000);
+	}
 
     } else {
         alert("Por favor, compartilhe a página antes de mostrar os palpites.");
