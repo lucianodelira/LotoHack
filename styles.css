@@ -756,3 +756,80 @@ select:hover {
     background-color: #7D7D7D; /* Cinza mais escuro no hover, apenas para botões inativos */
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+
+.mensagem-flutuante {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.fechar-mensagem {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mensagem-conteudo {
+    text-align: center;
+    max-width: 600px;
+    max-height: 80vh; /* Limita a altura para permitir rolagem */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Habilita rolagem vertical */
+}
+
+.mensagem-conteudo img.logo-acertos {
+    width: 250px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.cadastre-se-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffdd57;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.icone-jogar {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.bonus-list, .ganhos-list {
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.bonus-list li, .ganhos-list li {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}

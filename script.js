@@ -659,6 +659,30 @@ function checkPrivilegeAccess() {
     }
 }
 
+
+    // Função para mostrar a mensagem flutuante após 30 segundos
+    function mostrarMensagemFlutuante() {
+        // Verifica se o usuário tem privilégio
+        const hasPrivilege = localStorage.getItem('privilegeAccess') === 'true';
+        if (!hasPrivilege) {
+            const mensagemFlutuante = document.getElementById('mensagemFlutuante');
+            mensagemFlutuante.classList.remove('hidden');
+        }
+    }
+
+    // Função para fechar a mensagem flutuante
+    function fecharMensagemFlutuante() {
+        const mensagemFlutuante = document.getElementById('mensagemFlutuante');
+        mensagemFlutuante.classList.add('hidden');
+    }
+
+    // Adiciona evento de clique no botão de fechar
+    const fecharMensagemBtn = document.getElementById('fecharMensagemBtn');
+    fecharMensagemBtn.addEventListener('click', fecharMensagemFlutuante);
+
+    // Mostra a mensagem flutuante após 30 segundos
+    setTimeout(mostrarMensagemFlutuante, 30000);
+
 // Chama a função ao carregar a página
 checkPrivilegeAccess();
 
