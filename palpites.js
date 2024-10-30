@@ -1,41 +1,41 @@
 const palpites = {
   "BAHIA MALUCA": {
     "palpites": [
-      "2033",
-      "2037",
-      "2039",
-      "2053",
-      "2057",
-      "2059",
-      "2003",
-      "2007",
-      "2009",
-      "2333",
-      "2337",
-      "2339",
-      "2353",
-      "2357",
-      "2359",
-      "2303",
-      "2307",
-      "2309",
-      "2733",
-      "2737",
-      "2739",
-      "2753",
-      "2757",
-      "2759",
-      "2703",
-      "2707",
-      "2709",
-      "9033",
-      "9037",
-      "9039"
+      "6220",
+      "6222",
+      "6223",
+      "6260",
+      "6262",
+      "6263",
+      "6270",
+      "6272",
+      "6273",
+      "6820",
+      "6822",
+      "6823",
+      "6860",
+      "6862",
+      "6863",
+      "6870",
+      "6872",
+      "6873",
+      "6020",
+      "6022",
+      "6023",
+      "6060",
+      "6062",
+      "6063",
+      "6070",
+      "6072",
+      "6073",
+      "7220",
+      "7222",
+      "7223"
     ],
     "frases": [
-      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3181 no 7º Prêmio!",
-      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3281 no 7º Prêmio!",
-      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3581 no 7º Prêmio!"
+      "12h - MALUCA - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 2053 no 1º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 2353 no 1º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 2753 no 1º Prêmio!"
     ]
   },
   "BAHIA": {
@@ -71,7 +71,11 @@ const palpites = {
       "0280",
       "0287"
     ],
-    "frases": []
+    "frases": [
+      "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3222 no 5º Prêmio!",
+      "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3722 no 5º Prêmio!",
+      "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3022 no 5º Prêmio!"
+    ]
   },
   "LOTECE": {
     "palpites": [
