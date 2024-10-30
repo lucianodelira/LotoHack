@@ -77,6 +77,48 @@ const palpites = {
       "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3022 no 5º Prêmio!"
     ]
   },
+  "LOTECE": {
+    "palpites": [
+      "0391",
+      "0392",
+      "0394",
+      "0311",
+      "0312",
+      "0314",
+      "0371",
+      "0372",
+      "0374",
+      "0491",
+      "0492",
+      "0494",
+      "0411",
+      "0412",
+      "0414",
+      "0471",
+      "0472",
+      "0474",
+      "0791",
+      "0792",
+      "0794",
+      "0711",
+      "0712",
+      "0714",
+      "0771",
+      "0772",
+      "0774",
+      "4391",
+      "4392",
+      "4394"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4579 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4079 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4479 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4571 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4071 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 4471 no 7º Prêmio!"
+    ]
+  },
   "LOOK/GOIAS": {
     "palpites": [
       "6526",
@@ -160,45 +202,14 @@ const palpites = {
       "3013"
     ],
     "frases": [
+      "Resultado do Jogo do Bicho PB, Paratodos 09:45\nDeu Dezena, Palpite 3186 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho PB, Paratodos 09:45\nDeu Dezena, Palpite 3486 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho PB, Paratodos 09:45\nDeu Dezena, Palpite 3586 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho PB, Paratodos 09:45\nDeu Dezena, Palpite 6186 no 7º Prêmio!",
       "Resultado do Jogo do Bicho LOTEP - PB, 10:45\nDeu Dezena, Palpite 3602 no 9º Prêmio!",
       "Resultado do Jogo do Bicho LOTEP - PB, 10:45\nDeu Dezena, Palpite 3002 no 9º Prêmio!",
       "Resultado do Jogo do Bicho LOTEP - PB, 10:45\nDeu Dezena, Palpite 3502 no 9º Prêmio!"
     ]
-  },
-  "LOTECE": {
-    "palpites": [
-      "4539",
-      "4530",
-      "4531",
-      "4529",
-      "4520",
-      "4521",
-      "4579",
-      "4570",
-      "4571",
-      "4039",
-      "4030",
-      "4031",
-      "4029",
-      "4020",
-      "4021",
-      "4079",
-      "4070",
-      "4071",
-      "4439",
-      "4430",
-      "4431",
-      "4429",
-      "4420",
-      "4421",
-      "4479",
-      "4470",
-      "4471",
-      "8539",
-      "8530",
-      "8531"
-    ],
-    "frases": []
   },
   "PT RIO": {
     "palpites": [
