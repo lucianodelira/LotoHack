@@ -1,4 +1,43 @@
 const palpites = {
+  "BAHIA MALUCA": {
+    "palpites": [
+      "2033",
+      "2037",
+      "2039",
+      "2053",
+      "2057",
+      "2059",
+      "2003",
+      "2007",
+      "2009",
+      "2333",
+      "2337",
+      "2339",
+      "2353",
+      "2357",
+      "2359",
+      "2303",
+      "2307",
+      "2309",
+      "2733",
+      "2737",
+      "2739",
+      "2753",
+      "2757",
+      "2759",
+      "2703",
+      "2707",
+      "2709",
+      "9033",
+      "9037",
+      "9039"
+    ],
+    "frases": [
+      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3181 no 7º Prêmio!",
+      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3281 no 7º Prêmio!",
+      "10h - MALUCA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3581 no 7º Prêmio!"
+    ]
+  },
   "BAHIA": {
     "palpites": [
       "0391",
@@ -37,41 +76,6 @@ const palpites = {
       "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3722 no 5º Prêmio!",
       "10h - BA - Resultado do dia 30/10/2024 (Quarta-feira)\nDeu Dezena, Palpite 3022 no 5º Prêmio!"
     ]
-  },
-  "BAHIA MALUCA": {
-    "palpites": [
-      "3160",
-      "3161",
-      "3167",
-      "3180",
-      "3181",
-      "3187",
-      "3120",
-      "3121",
-      "3127",
-      "3260",
-      "3261",
-      "3267",
-      "3280",
-      "3281",
-      "3287",
-      "3220",
-      "3221",
-      "3227",
-      "3560",
-      "3561",
-      "3567",
-      "3580",
-      "3581",
-      "3587",
-      "3520",
-      "3521",
-      "3527",
-      "5160",
-      "5161",
-      "5167"
-    ],
-    "frases": []
   },
   "LOTECE": {
     "palpites": [
