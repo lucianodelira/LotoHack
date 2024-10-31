@@ -1,4 +1,43 @@
 const palpites = {
+  "BAHIA MALUCA": {
+    "palpites": [
+      "8210",
+      "8212",
+      "8213",
+      "8230",
+      "8232",
+      "8233",
+      "8280",
+      "8282",
+      "8283",
+      "8410",
+      "8412",
+      "8413",
+      "8430",
+      "8432",
+      "8433",
+      "8480",
+      "8482",
+      "8483",
+      "8510",
+      "8512",
+      "8513",
+      "8530",
+      "8532",
+      "8533",
+      "8580",
+      "8582",
+      "8583",
+      "3210",
+      "3212",
+      "3213"
+    ],
+    "frases": [
+      "10h - MALUCA - Resultado do dia 31/10/2024 (Quinta-feira)\nDeu Dezena, Palpite 2232 no 1º Prêmio!",
+      "10h - MALUCA - Resultado do dia 31/10/2024 (Quinta-feira)\nDeu Dezena, Palpite 2432 no 1º Prêmio!",
+      "10h - MALUCA - Resultado do dia 31/10/2024 (Quinta-feira)\nDeu Dezena, Palpite 2032 no 1º Prêmio!"
+    ]
+  },
   "BAHIA": {
     "palpites": [
       "0153",
@@ -38,41 +77,6 @@ const palpites = {
       "10h - BA - Resultado do dia 31/10/2024 (Quinta-feira)\nDeu Dezena, Palpite 3027 no 5º Prêmio!",
       "10h - BA - Resultado do dia 31/10/2024 (Quinta-feira)\nDeu Dezena, Palpite 2227 no 5º Prêmio!"
     ]
-  },
-  "BAHIA MALUCA": {
-    "palpites": [
-      "2223",
-      "2226",
-      "2222",
-      "2233",
-      "2236",
-      "2232",
-      "2293",
-      "2296",
-      "2292",
-      "2423",
-      "2426",
-      "2422",
-      "2433",
-      "2436",
-      "2432",
-      "2493",
-      "2496",
-      "2492",
-      "2023",
-      "2026",
-      "2022",
-      "2033",
-      "2036",
-      "2032",
-      "2093",
-      "2096",
-      "2092",
-      "7223",
-      "7226",
-      "7222"
-    ],
-    "frases": []
   },
   "LOTECE": {
     "palpites": [
