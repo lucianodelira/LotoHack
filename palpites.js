@@ -68,10 +68,54 @@ const palpites = {
       "2306"
     ],
     "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 1650 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Centena, Palpite 1350 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 1350 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 1250 no 7º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Centena, Palpite 5508 no 5º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5508 no 5º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5308 no 5º Prêmio!",
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 09h, 1º ao 10º\nDeu Dezena, Palpite 5008 no 5º Prêmio!"
+    ]
+  },
+  "PT RIO": {
+    "palpites": [
+      "0136",
+      "0130",
+      "0131",
+      "0156",
+      "0150",
+      "0151",
+      "0176",
+      "0170",
+      "0171",
+      "0636",
+      "0630",
+      "0631",
+      "0656",
+      "0650",
+      "0651",
+      "0676",
+      "0670",
+      "0671",
+      "0736",
+      "0730",
+      "0731",
+      "0756",
+      "0750",
+      "0751",
+      "0776",
+      "0770",
+      "0771",
+      "3136",
+      "3130",
+      "3131"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Centena, Palpite 9201 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 9201 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 9301 no 6º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 9001 no 6º Prêmio!"
     ]
   },
   "BAHIA": {
@@ -176,41 +220,6 @@ const palpites = {
       "4484",
       "4487",
       "4483"
-    ],
-    "frases": []
-  },
-  "PT RIO": {
-    "palpites": [
-      "9229",
-      "9226",
-      "9221",
-      "9209",
-      "9206",
-      "9201",
-      "9259",
-      "9256",
-      "9251",
-      "9329",
-      "9326",
-      "9321",
-      "9309",
-      "9306",
-      "9301",
-      "9359",
-      "9356",
-      "9351",
-      "9029",
-      "9026",
-      "9021",
-      "9009",
-      "9006",
-      "9001",
-      "9059",
-      "9056",
-      "9051",
-      "1229",
-      "1226",
-      "1221"
     ],
     "frases": []
   },
