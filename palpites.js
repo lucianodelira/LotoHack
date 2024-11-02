@@ -1,47 +1,38 @@
 const palpites = {
   "BAHIA MALUCA": {
     "palpites": [
-      "5003",
-      "5008",
-      "5004",
-      "5013",
-      "5018",
-      "5014",
-      "5083",
-      "5088",
-      "5084",
-      "5703",
-      "5708",
-      "5704",
-      "5713",
-      "5718",
-      "5714",
-      "5783",
-      "5788",
-      "5784",
-      "5103",
-      "5108",
-      "5104",
-      "5113",
-      "5118",
-      "5114",
-      "5183",
-      "5188",
-      "5184",
-      "9003",
-      "9008",
-      "9004"
+      "2191",
+      "2193",
+      "2195",
+      "2121",
+      "2123",
+      "2125",
+      "2101",
+      "2103",
+      "2105",
+      "2091",
+      "2093",
+      "2095",
+      "2021",
+      "2023",
+      "2025",
+      "2001",
+      "2003",
+      "2005",
+      "2291",
+      "2293",
+      "2295",
+      "2221",
+      "2223",
+      "2225",
+      "2201",
+      "2203",
+      "2205",
+      "3191",
+      "3193",
+      "3195"
     ],
-    "frases": [
-      "12h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 0293 no 7º Prêmio!",
-      "12h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 0893 no 7º Prêmio!",
-      "12h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 0093 no 7º Prêmio!",
-      "12h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 8293 no 7º Prêmio!",
-      "15h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1554 no 10º Prêmio!",
-      "15h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1854 no 10º Prêmio!",
-      "15h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1054 no 10º Prêmio!",
-      "15h - MALUCA - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 2554 no 10º Prêmio!"
-    ]
+    "frases": []
   },
   "BAHIA": {
     "palpites": [
@@ -76,7 +67,15 @@ const palpites = {
       "1522",
       "1525"
     ],
-    "frases": []
+    "frases": [
+      "12h - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1068 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1468 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1668 no 7º Prêmio!",
+      "19h FEDERAL - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1200 no 8º Prêmio!",
+      "19h FEDERAL - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1100 no 8º Prêmio!",
+      "19h FEDERAL - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 1500 no 8º Prêmio!",
+      "19h FEDERAL - BA - Resultado do dia 01/11/2024 (Sexta-feira)\nDeu Dezena, Palpite 2200 no 8º Prêmio!"
+    ]
   },
   "LOTECE": {
     "palpites": [
