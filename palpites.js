@@ -1,4 +1,46 @@
 const palpites = {
+  "BAHIA MALUCA": {
+    "palpites": [
+      "2631",
+      "2633",
+      "2636",
+      "2641",
+      "2643",
+      "2646",
+      "2601",
+      "2603",
+      "2606",
+      "2131",
+      "2133",
+      "2136",
+      "2141",
+      "2143",
+      "2146",
+      "2101",
+      "2103",
+      "2106",
+      "2531",
+      "2533",
+      "2536",
+      "2541",
+      "2543",
+      "2546",
+      "2501",
+      "2503",
+      "2506",
+      "7631",
+      "7633",
+      "7636"
+    ],
+    "frases": [
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2121 no 9º Prêmio!",
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2021 no 9º Prêmio!",
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2221 no 9º Prêmio!",
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2103 no 10º Prêmio!",
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2003 no 10º Prêmio!",
+      "10h - MALUCA - Resultado do dia 02/11/2024 (Sábado)\nDeu Dezena, Palpite 2203 no 10º Prêmio!"
+    ]
+  },
   "BAHIA": {
     "palpites": [
       "3517",
@@ -31,41 +73,6 @@ const palpites = {
       "6517",
       "6516",
       "6510"
-    ],
-    "frases": []
-  },
-  "BAHIA MALUCA": {
-    "palpites": [
-      "2191",
-      "2193",
-      "2195",
-      "2121",
-      "2123",
-      "2125",
-      "2101",
-      "2103",
-      "2105",
-      "2091",
-      "2093",
-      "2095",
-      "2021",
-      "2023",
-      "2025",
-      "2001",
-      "2003",
-      "2005",
-      "2291",
-      "2293",
-      "2295",
-      "2221",
-      "2223",
-      "2225",
-      "2201",
-      "2203",
-      "2205",
-      "3191",
-      "3193",
-      "3195"
     ],
     "frases": []
   },
