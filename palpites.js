@@ -127,47 +127,46 @@ const palpites = {
       "7005",
       "7007"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 1165 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 1565 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 1665 no 3º Prêmio!"
+    ]
   },
   "LOOK/GOIAS": {
     "palpites": [
-      "4419",
-      "4411",
-      "4412",
-      "4469",
-      "4461",
-      "4462",
-      "4489",
-      "4481",
-      "4482",
-      "4619",
-      "4611",
-      "4612",
-      "4669",
-      "4661",
-      "4662",
-      "4689",
-      "4681",
-      "4682",
-      "4019",
-      "4011",
-      "4012",
-      "4069",
-      "4061",
-      "4062",
-      "4089",
-      "4081",
-      "4082",
-      "6419",
-      "6411",
-      "6412"
+      "5301",
+      "5300",
+      "5302",
+      "5321",
+      "5320",
+      "5322",
+      "5361",
+      "5360",
+      "5362",
+      "5001",
+      "5000",
+      "5002",
+      "5021",
+      "5020",
+      "5022",
+      "5061",
+      "5060",
+      "5062",
+      "5701",
+      "5700",
+      "5702",
+      "5721",
+      "5720",
+      "5722",
+      "5761",
+      "5760",
+      "5762",
+      "0301",
+      "0300",
+      "0302"
     ],
-    "frases": [
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 2117 no 5º Prêmio!",
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 2417 no 5º Prêmio!",
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 2817 no 5º Prêmio!",
-      "Resultado do Jogo do Bicho LOOK - GOIÁS, 11h, 1º ao 10º\nDeu Dezena, Palpite 4117 no 5º Prêmio!"
-    ]
+    "frases": []
   },
   "LOTEP": {
     "palpites": [
