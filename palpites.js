@@ -32,7 +32,12 @@ const palpites = {
       "1106",
       "1107"
     ],
-    "frases": []
+    "frases": [
+      "12h - MALUCA - BA - Resultado do dia 05/11/2024 (Terça-feira)\nDeu Dezena, Palpite 9187 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 05/11/2024 (Terça-feira)\nDeu Centena, Palpite 9287 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 05/11/2024 (Terça-feira)\nDeu Dezena, Palpite 9287 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 05/11/2024 (Terça-feira)\nDeu Dezena, Palpite 9987 no 8º Prêmio!"
+    ]
   },
   "BAHIA": {
     "palpites": [
@@ -91,38 +96,42 @@ const palpites = {
   },
   "LOTECE": {
     "palpites": [
-      "0062",
-      "0060",
-      "0063",
-      "0022",
-      "0020",
-      "0023",
-      "0072",
-      "0070",
-      "0073",
-      "0262",
-      "0260",
-      "0263",
-      "0222",
-      "0220",
-      "0223",
-      "0272",
-      "0270",
-      "0273",
-      "0562",
-      "0560",
-      "0563",
-      "0522",
-      "0520",
-      "0523",
-      "0572",
-      "0570",
-      "0573",
-      "5062",
-      "5060",
-      "5063"
+      "8145",
+      "8146",
+      "8140",
+      "8165",
+      "8166",
+      "8160",
+      "8175",
+      "8176",
+      "8170",
+      "8745",
+      "8746",
+      "8740",
+      "8765",
+      "8766",
+      "8760",
+      "8775",
+      "8776",
+      "8770",
+      "8945",
+      "8946",
+      "8940",
+      "8965",
+      "8966",
+      "8960",
+      "8975",
+      "8976",
+      "8970",
+      "9145",
+      "9146",
+      "9140"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0072 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0272 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 0572 no 10º Prêmio!"
+    ]
   },
   "LOOK/GOIAS": {
     "palpites": [
