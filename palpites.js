@@ -174,6 +174,46 @@ const palpites = {
     ],
     "frases": []
   },
+  "PT SP": {
+    "palpites": [
+      "3713",
+      "3712",
+      "3714",
+      "3703",
+      "3702",
+      "3704",
+      "3783",
+      "3782",
+      "3784",
+      "3213",
+      "3212",
+      "3214",
+      "3203",
+      "3202",
+      "3204",
+      "3283",
+      "3282",
+      "3284",
+      "3013",
+      "3012",
+      "3014",
+      "3003",
+      "3002",
+      "3004",
+      "3083",
+      "3082",
+      "3084",
+      "0713",
+      "0712",
+      "0714"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 1016 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 1416 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 1616 no 10º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 5016 no 10º Prêmio!"
+    ]
+  },
   "PT RIO": {
     "palpites": [
       "7342",
@@ -206,41 +246,6 @@ const palpites = {
       "3342",
       "3346",
       "3347"
-    ],
-    "frases": []
-  },
-  "PT SP": {
-    "palpites": [
-      "1017",
-      "1016",
-      "1011",
-      "1087",
-      "1086",
-      "1081",
-      "1037",
-      "1036",
-      "1031",
-      "1417",
-      "1416",
-      "1411",
-      "1487",
-      "1486",
-      "1481",
-      "1437",
-      "1436",
-      "1431",
-      "1617",
-      "1616",
-      "1611",
-      "1687",
-      "1686",
-      "1681",
-      "1637",
-      "1636",
-      "1631",
-      "5017",
-      "5016",
-      "5011"
     ],
     "frases": []
   }
