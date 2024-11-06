@@ -44,6 +44,46 @@ const palpites = {
       "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 9415 no 8º Prêmio!"
     ]
   },
+  "PT SP": {
+    "palpites": [
+      "4444",
+      "4447",
+      "4448",
+      "4484",
+      "4487",
+      "4488",
+      "4494",
+      "4497",
+      "4498",
+      "4944",
+      "4947",
+      "4948",
+      "4984",
+      "4987",
+      "4988",
+      "4994",
+      "4997",
+      "4998",
+      "4344",
+      "4347",
+      "4348",
+      "4384",
+      "4387",
+      "4388",
+      "4394",
+      "4397",
+      "4398",
+      "3444",
+      "3447",
+      "3448"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 0758 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 0258 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 0358 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho SP, 08hs - PTSP, 1º ao 10º\nDeu Dezena, Palpite 5758 no 5º Prêmio!"
+    ]
+  },
   "BAHIA MALUCA": {
     "palpites": [
       "3084",
@@ -216,41 +256,6 @@ const palpites = {
       "7432",
       "7433",
       "7431"
-    ],
-    "frases": []
-  },
-  "PT SP": {
-    "palpites": [
-      "0755",
-      "0754",
-      "0758",
-      "0775",
-      "0774",
-      "0778",
-      "0785",
-      "0784",
-      "0788",
-      "0255",
-      "0254",
-      "0258",
-      "0275",
-      "0274",
-      "0278",
-      "0285",
-      "0284",
-      "0288",
-      "0355",
-      "0354",
-      "0358",
-      "0375",
-      "0374",
-      "0378",
-      "0385",
-      "0384",
-      "0388",
-      "5755",
-      "5754",
-      "5758"
     ],
     "frases": []
   }
