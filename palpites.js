@@ -1,4 +1,49 @@
 const palpites = {
+  "BAHIA MALUCA": {
+    "palpites": [
+      "0031",
+      "0033",
+      "0030",
+      "0001",
+      "0003",
+      "0000",
+      "0021",
+      "0023",
+      "0020",
+      "0431",
+      "0433",
+      "0430",
+      "0401",
+      "0403",
+      "0400",
+      "0421",
+      "0423",
+      "0420",
+      "0831",
+      "0833",
+      "0830",
+      "0801",
+      "0803",
+      "0800",
+      "0821",
+      "0823",
+      "0820",
+      "4031",
+      "4033",
+      "4030"
+    ],
+    "frases": [
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3036 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3236 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3736 no 5º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3004 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3204 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3704 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3001 no 9º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3201 no 9º Prêmio!",
+      "10h - MALUCA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3701 no 9º Prêmio!"
+    ]
+  },
   "BAHIA": {
     "palpites": [
       "0032",
@@ -42,41 +87,6 @@ const palpites = {
       "10h - BA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3037 no 9º Prêmio!",
       "10h - BA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3337 no 9º Prêmio!"
     ]
-  },
-  "BAHIA MALUCA": {
-    "palpites": [
-      "3084",
-      "3086",
-      "3081",
-      "3004",
-      "3006",
-      "3001",
-      "3034",
-      "3036",
-      "3031",
-      "3284",
-      "3286",
-      "3281",
-      "3204",
-      "3206",
-      "3201",
-      "3234",
-      "3236",
-      "3231",
-      "3784",
-      "3786",
-      "3781",
-      "3704",
-      "3706",
-      "3701",
-      "3734",
-      "3736",
-      "3731",
-      "8084",
-      "8086",
-      "8081"
-    ],
-    "frases": []
   },
   "LOTECE": {
     "palpites": [
