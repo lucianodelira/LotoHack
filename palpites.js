@@ -88,6 +88,46 @@ const palpites = {
       "10h - BA - Resultado do dia 06/11/2024 (Quarta-feira)\nDeu Dezena, Palpite 3337 no 9º Prêmio!"
     ]
   },
+  "LOTECE": {
+    "palpites": [
+      "6636",
+      "6633",
+      "6630",
+      "6696",
+      "6693",
+      "6690",
+      "6606",
+      "6603",
+      "6600",
+      "6836",
+      "6833",
+      "6830",
+      "6896",
+      "6893",
+      "6890",
+      "6806",
+      "6803",
+      "6800",
+      "6136",
+      "6133",
+      "6130",
+      "6196",
+      "6193",
+      "6190",
+      "6106",
+      "6103",
+      "6100",
+      "3636",
+      "3633",
+      "3630"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8936 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8236 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Centena, Palpite 8636 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 11:00 (manhã)\nDeu Dezena, Palpite 8636 no 2º Prêmio!"
+    ]
+  },
   "LOOK/GOIAS": {
     "palpites": [
       "6724",
@@ -174,41 +214,6 @@ const palpites = {
       "Resultado do Jogo do Bicho LOTEP - PB, 10:45\nDeu Dezena, Palpite 6921 no 5º Prêmio!",
       "Resultado do Jogo do Bicho LOTEP - PB, 10:45\nDeu Dezena, Palpite 6021 no 5º Prêmio!"
     ]
-  },
-  "LOTECE": {
-    "palpites": [
-      "8959",
-      "8956",
-      "8958",
-      "8939",
-      "8936",
-      "8938",
-      "8999",
-      "8996",
-      "8998",
-      "8259",
-      "8256",
-      "8258",
-      "8239",
-      "8236",
-      "8238",
-      "8299",
-      "8296",
-      "8298",
-      "8659",
-      "8656",
-      "8658",
-      "8639",
-      "8636",
-      "8638",
-      "8699",
-      "8696",
-      "8698",
-      "1959",
-      "1956",
-      "1958"
-    ],
-    "frases": []
   },
   "PT RIO": {
     "palpites": [
