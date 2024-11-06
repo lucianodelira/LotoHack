@@ -32,7 +32,59 @@ const palpites = {
       "7726",
       "7722"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0414 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0514 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0914 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 9414 no 3º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0415 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0515 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Centena, Palpite 0915 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 0915 no 8º Prêmio!",
+      "Resultado do Jogo do Bicho LOOK - GOIÁS, 07h, 1º ao 10º\nDeu Dezena, Palpite 9415 no 8º Prêmio!"
+    ]
+  },
+  "PT RIO": {
+    "palpites": [
+      "0108",
+      "0100",
+      "0101",
+      "0118",
+      "0110",
+      "0111",
+      "0188",
+      "0180",
+      "0181",
+      "0708",
+      "0700",
+      "0701",
+      "0718",
+      "0710",
+      "0711",
+      "0788",
+      "0780",
+      "0781",
+      "0208",
+      "0200",
+      "0201",
+      "0218",
+      "0210",
+      "0211",
+      "0288",
+      "0280",
+      "0281",
+      "1108",
+      "1100",
+      "1101"
+    ],
+    "frases": [
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3483 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3583 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3083 no 5º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3481 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3581 no 7º Prêmio!",
+      "Resultado do Jogo do Bicho RJ, 09:20, PT, 1º ao 10º\nDeu Dezena, Palpite 3081 no 7º Prêmio!"
+    ]
   },
   "BAHIA MALUCA": {
     "palpites": [
@@ -171,41 +223,6 @@ const palpites = {
       "6802",
       "6803",
       "6805"
-    ],
-    "frases": []
-  },
-  "PT RIO": {
-    "palpites": [
-      "3432",
-      "3433",
-      "3431",
-      "3462",
-      "3463",
-      "3461",
-      "3482",
-      "3483",
-      "3481",
-      "3532",
-      "3533",
-      "3531",
-      "3562",
-      "3563",
-      "3561",
-      "3582",
-      "3583",
-      "3581",
-      "3032",
-      "3033",
-      "3031",
-      "3062",
-      "3063",
-      "3061",
-      "3082",
-      "3083",
-      "3081",
-      "7432",
-      "7433",
-      "7431"
     ],
     "frases": []
   },
