@@ -32,7 +32,19 @@ const palpites = {
       "2610",
       "2612"
     ],
-    "frases": []
+    "frases": [
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3092 no 3º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3292 no 3º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3592 no 3º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3004 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3204 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 3504 no 8º Prêmio!",
+      "10h - MALUCA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 4004 no 8º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 1492 no 1º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 1192 no 1º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 1892 no 1º Prêmio!",
+      "12h - MALUCA - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 4492 no 1º Prêmio!"
+    ]
   },
   "BAHIA": {
     "palpites": [
@@ -67,42 +79,51 @@ const palpites = {
       "5862",
       "5867"
     ],
-    "frases": []
+    "frases": [
+      "12h - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 2210 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 2410 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 2010 no 7º Prêmio!",
+      "12h - BA - Resultado do dia 07/11/2024 (Quinta-feira)\nDeu Dezena, Palpite 6210 no 7º Prêmio!"
+    ]
   },
   "LOTECE": {
     "palpites": [
-      "2172",
-      "2175",
-      "2170",
-      "2142",
-      "2145",
-      "2140",
-      "2152",
-      "2155",
-      "2150",
-      "2372",
-      "2375",
-      "2370",
-      "2342",
-      "2345",
-      "2340",
-      "2352",
-      "2355",
-      "2350",
-      "2672",
-      "2675",
-      "2670",
-      "2642",
-      "2645",
-      "2640",
-      "2652",
-      "2655",
-      "2650",
-      "3172",
-      "3175",
-      "3170"
+      "6289",
+      "6287",
+      "6288",
+      "6209",
+      "6207",
+      "6208",
+      "6249",
+      "6247",
+      "6248",
+      "6189",
+      "6187",
+      "6188",
+      "6109",
+      "6107",
+      "6108",
+      "6149",
+      "6147",
+      "6148",
+      "6089",
+      "6087",
+      "6088",
+      "6009",
+      "6007",
+      "6008",
+      "6049",
+      "6047",
+      "6048",
+      "8289",
+      "8287",
+      "8288"
     ],
-    "frases": []
+    "frases": [
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 2152 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 2352 no 2º Prêmio!",
+      "Resultado do Jogo do Bicho LOTECE - CE, 15:45 (tarde II)\nDeu Dezena, Palpite 2652 no 2º Prêmio!"
+    ]
   },
   "LOOK/GOIAS": {
     "palpites": [
